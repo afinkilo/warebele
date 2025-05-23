@@ -6051,5 +6051,26 @@
             }
         ],
         "serialNumbers": []
+    },
+    {
+        "kode": "tes",
+        "nama": "tes",
+        "masuk": 1,
+        "keluar": 0,
+        "serialNumbers": [
+            "tes"
+        ],
+        "history": [
+            {
+                "tipe": "restock",
+                "jumlah": 1,
+                "tanggal": "2025-05-23",
+                "keterangan": "1",
+                "serialNumbers": [
+                    "tes"
+                ]
+            }
+        ],
+        "currentBalance": 1
     }
 ]

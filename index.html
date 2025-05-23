@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Warehouse</title>
-    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/128/1710/1710412.png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Data Gudang Sederhana</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <style>
-        body { margin: 0; }
+        body { margin: 20px; }
         .container { max-width: 1200px; }
         .editable:hover { background-color: #f5f5f5; cursor: pointer; }
         .autocomplete-suggestions {
@@ -24,148 +23,28 @@
             cursor: pointer;
         }
         .autocomplete-suggestion:hover { background-color: #f0f0f0; }
-        
-        /* Custom table colors */
-        .table-striped > tbody > tr:nth-of-type(odd) {
-            background-color: rgba(0, 0, 0, 0.02);
-        }
-        .table-striped > tbody > tr:nth-of-type(even) {
-            background-color: #fff;
-        }
-        .table-striped > tbody > tr:hover {
-            background-color: rgba(13, 110, 253, 0.05);
-            cursor: pointer;
-        }
-        .table-bordered {
-            border-color: #dee2e6;
-        }
-        .table > :not(caption) > * > * {
-            border-bottom-color: #dee2e6;
-        }
-        .table td:last-child {
-            white-space: nowrap;
-            width: 1%;
-        }
-        tr.selected {
-            background-color: rgba(13, 110, 253, 0.1) !important;
-        }
-        
+        tr:hover { background-color: #e9ecef; cursor: pointer; }
+        tr.selected { background-color: #d1e7dd; }
         .serial-number-list {
             max-height: 200px;
             overflow-y: auto;
-        }        /* Custom soft colors for buttons */
-        .btn-primary {
-            background-color: #cce0ff;
-            border-color: #99c2ff;
-            color: #004d99;
-        }
-        .btn-primary:hover {
-            background-color: #b3d1ff;
-            border-color: #80b3ff;
-            color: #003d7a;
-        }
-        
-        .btn-info {
-            background-color: #cce5ff;
-            border-color: #99d6ff;
-            color: #006699;
-        }
-        .btn-info:hover {
-            background-color: #b3dcff;
-            border-color: #80ccff;
-            color: #004d73;
-        }
-        
-        .btn-secondary {
-            background-color: #e6e6e6;
-            border-color: #cccccc;
-            color: #4d4d4d;
-        }
-        .btn-secondary:hover {
-            background-color: #d9d9d9;
-            border-color: #bfbfbf;
-            color: #333333;
-        }
-        
-        .btn-success {
-            background-color: #c2f0d1;
-            border-color: #99e6b3;
-            color: #006633;
-        }
-        .btn-success:hover {
-            background-color: #a8e9bf;
-            border-color: #80cc99;
-            color: #008c52;
-        }
-          .btn-danger {
-            background-color: #ffc2c2;
-            border-color: #ff9999;
-            color: #990000;
-        }
-        .btn-danger:hover {
-            background-color: #ffb3b3;
-            border-color: #ff8080;
-            color: #800000;
-        }
-        
-        .btn-warning {
-            background-color: #ffe6b3;
-            border-color: #ffd980;
-            color: #996600;
-        }
-        .btn-warning:hover {
-            background-color: #ffd699;
-            border-color: #ffcc66;
-            color: #805500;
-        }
-        
-        .btn-outline-secondary {
-            border-color: #d9d9d9;
-            color: #666666;
-        }
-        .btn-outline-secondary:hover {
-            background-color: #f0f0f0;
-            border-color: #bfbfbf;
-            color: #4d4d4d;
         }
     </style>
 </head>
 <body>
-    <script>
-        // Check if user is logged in
-        if (!sessionStorage.getItem('isLoggedIn')) {
-            window.location.href = 'login.html';
-        }
-    </script>
+    <div class="container">
+        <h2 class="mb-4">Aplikasi Data Gudang</h2>
 
-    <!-- Add logout button to navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom mb-4">
-        <div class="container">
-            <a class="navbar-brand d-flex align-items-center" href="#">
-                <img src="https://cdn-icons-png.flaticon.com/128/1710/1710412.png" alt="Warehouse Logo" width="32" height="32" class="me-2">
-                <span class="fw-semibold">Warehouse Management System</span>
-            </a>
-            <div class="ms-auto">
-                <button class="btn btn-outline-danger" onclick="logout()">Logout</button>
-            </div>
-        </div>
-    </nav>
-    
-    <div class="container"> 
-        <div class="mb-3">
-            <h2 class="mb-0">Warehouse Management System</h2>
-        </div>
-
-        <!-- Search and Import/Export Form -->
+        <!-- Form Pencarian dan Import/Export -->
         <div class="mb-3">
             <div class="input-group">
-                <input type="text" class="form-control" id="search" placeholder="Search by code, name, or serial number">
-                <button class="btn btn-primary" onclick="cariBarang()">Search</button>
+                <input type="text" class="form-control" id="search" placeholder="Cari kode, nama barang, atau serial number">
+                <button class="btn btn-primary" onclick="cariBarang()">Cari</button>
                 <input type="file" class="form-control" id="importFile" accept=".xlsx, .xls, .json" onchange="importFile()">
                 <button class="btn btn-info" onclick="fetchInventaris()">Refresh Data</button>
                 <button class="btn btn-secondary" onclick="exportExcel()">Export Excel</button>
                 <button class="btn btn-secondary" onclick="exportJson()">Export JSON</button>
-                <button class="btn btn-danger" onclick="hapusSemuaData()">Delete All Data</button>
+                <button class="btn btn-danger" onclick="hapusSemuaData()">Hapus Semua Data</button>
             </div>
         </div>
 
@@ -173,40 +52,43 @@
         <div class="card mb-4">
             <div class="card-body">
                 <div class="row g-3">
-                    <div class="col-md-2 position-relative">                        <input type="text" class="form-control" id="kode" placeholder="Item Code" oninput="showAutocomplete(this)">
+                    <div class="col-md-2 position-relative">
+                        <input type="text" class="form-control" id="kode" placeholder="Kode Barang" oninput="showAutocomplete(this)">
                         <div id="autocompleteList" class="autocomplete-suggestions" style="display: none;"></div>
                     </div>
                     <div class="col-md-2">
-                        <input type="text" class="form-control" id="nama" placeholder="Item Name">
+                        <input type="text" class="form-control" id="nama" placeholder="Nama Barang">
                     </div>
                     <div class="col-md-2">
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="hasSerialNumber" onchange="toggleSerialNumberInput()">
                             <label class="form-check-label" for="hasSerialNumber">
-                                Has Serial Number
+                                Memiliki Serial Number
                             </label>
                         </div>
                     </div>
                     <div class="col-md-2">
-                        <input type="number" class="form-control" id="masuk" placeholder="Quantity In">
+                        <input type="number" class="form-control" id="masuk" placeholder="Jumlah Masuk">
                     </div>
                     <div class="col-md-2">
-                        <input type="date" class="form-control" id="tanggalMasuk" placeholder="Entry Date">
+                        <input type="date" class="form-control" id="tanggalMasuk" placeholder="Tanggal Masuk">
                     </div>
                     <div class="col-md-2">
-                        <input type="text" class="form-control" id="keterangan" placeholder="Description">
-                    </div>                    <div class="col-md-2">
-                        <button class="btn btn-success w-100" onclick="tambahBarang()">Add/Update</button>
+                        <input type="text" class="form-control" id="keterangan" placeholder="Keterangan">
                     </div>
                     <div class="col-md-2">
-                        <button class="btn btn-warning" onclick="undo()" title="Undo"><i class="bi bi-arrow-counterclockwise"></i></button>
+                        <button class="btn btn-success w-100" onclick="tambahBarang()">Tambah/Update</button>
+                    </div>
+                    <div class="col-md-2">
+                        <button class="btn btn-warning w-100" onclick="undo()">Undo</button>
                     </div>
                 </div>
                 
                 <!-- Form Serial Number (awalnya tersembunyi) -->
                 <div id="serialNumberForm" class="row g-3 mt-3" style="display: none;">
                     <div class="col-md-12">
-                        <div class="card">                            <div class="card-header">
+                        <div class="card">
+                            <div class="card-header">
                                 Input Serial Number
                             </div>
                             <div class="card-body">
@@ -214,10 +96,10 @@
                                     <div class="col-md-6">
                                         <div class="input-group mb-3">
                                             <input type="text" class="form-control" id="serialNumber" 
-                                                placeholder="Enter Serial Numbers (comma separated)">
-                                            <button class="btn btn-outline-secondary" type="button" onclick="addSerialNumber()">Add</button>
+                                                placeholder="Masukkan Serial Number (pisahkan dengan koma)">
+                                            <button class="btn btn-outline-secondary" type="button" onclick="addSerialNumber()">Tambah</button>
                                         </div>
-                                        <small class="text-muted">Example: SN001, SN002, SN003</small>
+                                        <small class="text-muted">Contoh: SN001, SN002, SN003</small>
                                     </div>
                                 </div>
                                 <div class="serial-number-list mt-3">
@@ -272,24 +154,25 @@
 
         <!-- Tabel Data dengan Pagination -->
         <div class="table-responsive">
-            <table class="table table-striped table-bordered table-hover align-middle">
-                <thead class="table-light">
+            <table class="table table-striped table-bordered">
+                <thead class="table-dark">
                     <tr>
-                        <th>Item Code</th>
-                        <th>Item Name</th>
-                        <th>In</th>
-                        <th>Out</th>
-                        <th>Stock</th>
-                        <th>Actions</th>
+                        <th>Kode Barang</th>
+                        <th>Nama Barang</th>
+                        <th>Masuk</th>
+                        <th>Keluar</th>
+                        <th>Stok</th>
+                        <th>Aksi</th>
                     </tr>
                 </thead>
                 <tbody id="tabelBody">
                 </tbody>
             </table>
-        </div>        <div class="d-flex justify-content-between align-items-center mt-3">
+        </div>
+        <div class="d-flex justify-content-between align-items-center mt-3">
             <div>
-                <label for="rowsPerPage">Rows per page:</label>
-                <select id="rowsPerPage" class="form-select d-inline w-auto" onchange="changeRowsPerPage()">
+                <label for="rowsPerPage">Baris per halaman:</label>
+                <select id="rowsPerPage" class="form-select d-inline w-auto" onchange="updateTabel()">
                     <option value="5">5</option>
                     <option value="10" selected>10</option>
                     <option value="25">25</option>
@@ -301,26 +184,26 @@
                 <button class="btn btn-secondary" onclick="nextPage()" id="nextBtn">Next</button>
             </div>
         </div>
-      
-        <div id="rowsInfo" class="mt-2"></div>
-    </div>    <!-- Transaction History Modal -->
+    </div>
+
+    <!-- Modal untuk Histori -->
     <div class="modal fade" id="historyModal" tabindex="-1" aria-labelledby="historyModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="historyModalLabel">Transaction History</h5>
+                    <h5 class="modal-title" id="historyModalLabel">Histori Transaksi</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <table class="table table-striped table-hover align-middle">
-                        <thead class="table-light">
+                    <table class="table table-striped">
+                        <thead>
                             <tr>
-                                <th>Type</th>
-                                <th>Qty</th>
-                                <th>Date</th>
-                                <th>Description</th>
+                                <th>Tipe</th>
+                                <th>Jumlah</th>
+                                <th>Tanggal</th>
+                                <th>Keterangan</th>
                                 <th>Serial Number</th>
-                                <th>Actions</th>
+                                <th>Aksi</th>
                             </tr>
                         </thead>
                         <tbody id="historyTableBody">
@@ -328,41 +211,42 @@
                     </table>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Transaction Modal -->
+    <!-- Modal untuk Transaksi -->
     <div class="modal fade" id="transaksiModal" tabindex="-1" aria-labelledby="transaksiModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="transaksiModalLabel">Item Transaction</h5>
+                    <h5 class="modal-title" id="transaksiModalLabel">Transaksi Barang</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <form id="transaksiForm">
                         <input type="hidden" id="transaksiKode">
-                        <input type="hidden" id="transaksiTipe">                        <div class="mb-3">
-                            <label class="form-label">Item Code</label>
+                        <input type="hidden" id="transaksiTipe">
+                        <div class="mb-3">
+                            <label class="form-label">Kode Barang</label>
                             <input type="text" class="form-control" id="transaksiKodeBarang" readonly>
                         </div>
                         <div class="mb-3">
-                            <label class="form-label">Item Name</label>
+                            <label class="form-label">Nama Barang</label>
                             <input type="text" class="form-control" id="transaksiNamaBarang" readonly>
                         </div>
                         <div class="mb-3">
-                            <label class="form-label">Quantity</label>
+                            <label class="form-label">Jumlah</label>
                             <input type="number" class="form-control" id="transaksiJumlah" required>
                         </div>
                         <div class="mb-3">
-                            <label class="form-label">Date</label>
+                            <label class="form-label">Tanggal</label>
                             <input type="date" class="form-control" id="transaksiTanggal" required>
                         </div>
                         <div class="mb-3">
-                            <label class="form-label">Description</label>
+                            <label class="form-label">Keterangan</label>
                             <input type="text" class="form-control" id="transaksiKeterangan">
                         </div>
                         <div class="mb-3" id="serialNumberContainer" style="display: none;">
@@ -391,54 +275,10 @@
                             </div>
                         </div>
                     </form>
-                </div>                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                    <button type="button" class="btn btn-primary" onclick="prosesTransaksi()">Save</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal Stock Change History -->
-    <div class="modal fade" id="stockChangeHistoryModal" tabindex="-1" aria-labelledby="stockChangeHistoryModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="stockChangeHistoryModalLabel">Stock Change History</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form class="row g-3 mb-3" onsubmit="event.preventDefault(); filterStockChangeHistoryPerBarang();">
-                        <div class="col-md-5">
-                            <label for="filterStartDate" class="form-label">Start Date</label>
-                            <input type="datetime-local" class="form-control" id="filterStartDate">
-                        </div>
-                        <div class="col-md-5">
-                            <label for="filterEndDate" class="form-label">End Date</label>
-                            <input type="datetime-local" class="form-control" id="filterEndDate">
-                        </div>
-                        <div class="col-md-2 d-flex align-items-end">
-                            <button type="submit" class="btn btn-primary w-100">Filter</button>
-                        </div>
-                    </form>
-                    <div class="table-responsive">
-                        <table class="table table-sm table-striped table-hover align-middle">
-                            <thead class="table-light">
-                                <tr>
-                                    <th>Date</th>
-                                    <th>Previous Stock</th>
-                                    <th>Change</th>
-                                    <th>New Stock</th>
-                                    <th>Type</th>
-                                </tr>
-                            </thead>
-                            <tbody id="stockHistoryTableBodyPerBarang">
-                            </tbody>
-                        </table>
-                    </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                    <button type="button" class="btn btn-primary" onclick="prosesTransaksi()">Simpan</button>
                 </div>
             </div>
         </div>
@@ -449,7 +289,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
     
     <script>
-        const API_URL = 'http://gudang.localhost/api.php';
+        const API_URL = 'https://afinkilo.github.io/warebele.github.io/api.php';
         let inventaris = [];
         let currentPage = 1;
         let rowsPerPage = 10;
@@ -490,17 +330,18 @@
                 // Validasi setiap serial number
                 for (const serialNumber of newSerialNumbers) {
                     // Cek duplikasi di list serial number saat ini
-                    if (serialNumbers.includes(serialNumber)) {                alert(`Serial number "${serialNumber}" already exists in the list!`);
+                    if (serialNumbers.includes(serialNumber)) {
+                        alert(`Serial number "${serialNumber}" sudah ada dalam list!`);
                         continue;
                     }
 
-                    // Check for duplicates across all items
+                    // Cek duplikasi di semua barang
                     const isDuplicate = inventaris.some(item => 
                         item.serialNumbers && item.serialNumbers.includes(serialNumber)
                     );
 
                     if (isDuplicate) {
-                        alert(`Serial number "${serialNumber}" is already used by another item!`);
+                        alert(`Serial number "${serialNumber}" sudah digunakan di barang lain!`);
                         continue;
                     }
 
@@ -532,7 +373,7 @@
                 tr.innerHTML = `
                     <td>${serial}</td>
                     <td>
-                        <button class="btn btn-sm btn-danger" onclick="removeSerialNumber(${index})">Delete</button>
+                        <button class="btn btn-sm btn-danger" onclick="removeSerialNumber(${index})">Hapus</button>
                     </td>
                 `;
                 tbody.appendChild(tr);
@@ -578,14 +419,15 @@
                 
                 if (availableSerialNumbers.length === 0) {
                     const tr = document.createElement('tr');
-                    tr.innerHTML = `                    <td colspan="3" class="text-center">No serial numbers available</td>
-                `;
-                tbody.appendChild(tr);
-                return;
-            }
-            
-            // Display available serial numbers
-            availableSerialNumbers.forEach(sn => {
+                    tr.innerHTML = `
+                        <td colspan="3" class="text-center">Tidak ada serial number yang tersedia</td>
+                    `;
+                    tbody.appendChild(tr);
+                    return;
+                }
+                
+                // Tampilkan serial number yang masih tersedia
+                availableSerialNumbers.forEach(sn => {
                     const tr = document.createElement('tr');
                     tr.innerHTML = `
                         <td>
@@ -650,7 +492,7 @@
                     typeof item.masuk === 'number' && 
                     typeof item.keluar === 'number' && 
                     Array.isArray(item.history)
-                ).map(item => recalculateTotals(item)); // Recalculate totals for each item
+                );
                 
                 console.log('Filtered data:', inventaris); // Debug log
                 
@@ -719,48 +561,6 @@
             }
         }
 
-        // Fungsi untuk menampilkan history
-        function showHistory(kode) {
-            const barang = inventaris.find(item => item.kode === kode);
-            if (!barang) return;
-
-            const tbody = document.getElementById('historyTableBody');
-            tbody.innerHTML = '';
-            
-            if (!barang.history || barang.history.length === 0) {
-                const tr = document.createElement('tr');
-                tr.innerHTML = `
-                    <td colspan="6" class="text-center">Tidak ada history transaksi</td>
-                `;
-                tbody.appendChild(tr);
-                return;
-            }
-
-            // Urutkan history berdasarkan tanggal (terbaru ke terlama)
-            const sortedHistory = [...barang.history].sort((a, b) => {
-                return new Date(b.tanggal) - new Date(a.tanggal);
-            });
-
-            // Tampilkan detail transaksi saja
-            sortedHistory.forEach((item, index) => {
-                const tr = document.createElement('tr');
-                tr.innerHTML = `
-                    <td>${item.tipe}</td>
-                    <td>${item.jumlah}</td>
-                    <td>${item.tanggal}</td>
-                    <td>${item.keterangan || '-'}</td>
-                    <td>${item.serialNumbers ? item.serialNumbers.join(', ') : '-'}</td>
-                    <td>
-                        <button class="btn btn-sm btn-danger" onclick="hapusHistory('${kode}', ${barang.history.indexOf(item)})">Delete</button>
-                    </td>
-                `;
-                tbody.appendChild(tr);
-            });
-
-            const modal = new bootstrap.Modal(document.getElementById('historyModal'));
-            modal.show();
-        }
-
         // Fungsi untuk menghitung ulang total masuk dan keluar dari history
         function recalculateTotals(barang) {
             if (!barang || !barang.history) {
@@ -770,32 +570,28 @@
             let totalMasuk = 0;
             let totalKeluar = 0;
             let totalReturn = 0;
-            let currentBalance = 0;
-            
-            // Urutkan history berdasarkan tanggal (terlama ke terbaru)
-            const sortedHistory = [...barang.history].sort((a, b) => {
-                return new Date(a.tanggal) - new Date(b.tanggal);
-            });
             
             // Hitung total masuk dan keluar terlebih dahulu
-            sortedHistory.forEach(history => {
+            barang.history.forEach(history => {
                 const jumlah = parseInt(history.jumlah) || 0;
                 if (history.tipe === 'restock') {
                     totalMasuk += jumlah;
-                    currentBalance += jumlah;
                 } else if (history.tipe === 'keluar') {
                     totalKeluar += jumlah;
-                    currentBalance -= jumlah;
-                } else if (history.tipe === 'return') {
+                }
+            });
+
+            // Hitung total return dan kurangi dari keluar
+            barang.history.forEach(history => {
+                const jumlah = parseInt(history.jumlah) || 0;
+                if (history.tipe === 'return') {
                     totalReturn += jumlah;
-                    currentBalance += jumlah;
                     totalKeluar = Math.max(0, totalKeluar - jumlah);
                 }
             });
             
             barang.masuk = totalMasuk;
             barang.keluar = totalKeluar;
-            barang.currentBalance = currentBalance;
             return barang;
         }
 
@@ -819,20 +615,20 @@
             
             pageData.forEach((item, index) => {
                 const tr = document.createElement('tr');
+                const stok = (item.masuk || 0) - (item.keluar || 0);
                 tr.innerHTML = `
                     <td>${item.kode}</td>
                     <td>${item.nama}</td>
                     <td>${item.masuk || 0}</td>
                     <td>${item.keluar || 0}</td>
-                    <td>${item.currentBalance || 0}</td>
+                    <td>${stok}</td>
                     <td>
                         <button class="btn btn-sm btn-info" onclick="showHistory('${item.kode}')">History</button>
-                        <button class="btn btn-sm btn-secondary" onclick="showStockChangeHistoryModalPerBarang('${item.kode}')">Stock Change History</button>
                         <button class="btn btn-sm btn-warning" onclick="editBarang(${index})">Edit</button>
-                        <button class="btn btn-sm btn-danger" onclick="hapusBarang('${item.kode}')">Delete</button>
-                        <button class="btn btn-sm btn-success" onclick="restockWithCheck('${item.kode}')">Restock</button>
-                        <button class="btn btn-sm btn-primary" onclick="returnWithCheck('${item.kode}')">Return</button>
-                        <button class="btn btn-sm btn-secondary" onclick="pickupWithStockCheck('${item.kode}')">Pickup</button>
+                        <button class="btn btn-sm btn-danger" onclick="hapusBarang('${item.kode}')">Hapus</button>
+                        <button class="btn btn-sm btn-success" onclick="showTransaksiModal('${item.kode}', 'restock')">Restock</button>
+                        <button class="btn btn-sm btn-primary" onclick="showTransaksiModal('${item.kode}', 'return')">Return</button>
+                        <button class="btn btn-sm btn-secondary" onclick="showTransaksiModal('${item.kode}', 'keluar')">Keluar</button>
                     </td>
                 `;
                 tbody.appendChild(tr);
@@ -841,22 +637,47 @@
             updatePagination();
         }
 
-        // Wrapper agar showTransaksiModal tetap bisa dipanggil dari tombol
-        function restockWithCheck(kode) { showTransaksiModal(kode, 'restock'); }
-        function returnWithCheck(kode) { showTransaksiModal(kode, 'return'); }
-
-        // Fungsi untuk cek stok sebelum transaksi keluar
-        function pickupWithStockCheck(kode) {
+        // Fungsi untuk menampilkan history
+        function showHistory(kode) {
             const barang = inventaris.find(item => item.kode === kode);
-            const stok = barang && barang.currentBalance ? barang.currentBalance : 0;
-            if (!barang || stok <= 0) {
-                alert('Stok 0, tidak bisa melakukan transaksi keluar!');
-                return;
+            if (!barang) return;
+
+            const tbody = document.getElementById('historyTableBody');
+            tbody.innerHTML = '';
+            
+            if (!barang.history || barang.history.length === 0) {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td colspan="6" class="text-center">Tidak ada history transaksi</td>
+                `;
+                tbody.appendChild(tr);
+            } else {
+                // Urutkan history berdasarkan tanggal (terbaru ke terlama)
+                const sortedHistory = [...barang.history].sort((a, b) => {
+                    return new Date(b.tanggal) - new Date(a.tanggal);
+                });
+
+                sortedHistory.forEach((item, index) => {
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `
+                        <td>${item.tipe}</td>
+                        <td>${item.jumlah}</td>
+                        <td>${item.tanggal}</td>
+                        <td>${item.keterangan || '-'}</td>
+                        <td>${item.serialNumbers ? item.serialNumbers.join(', ') : '-'}</td>
+                        <td>
+                            <button class="btn btn-sm btn-danger" onclick="hapusHistory('${kode}', ${barang.history.indexOf(item)})">Hapus</button>
+                        </td>
+                    `;
+                    tbody.appendChild(tr);
+                });
             }
-            showTransaksiModal(kode, 'keluar');
+
+            const modal = new bootstrap.Modal(document.getElementById('historyModal'));
+            modal.show();
         }
 
-        // Fungsi untuk menghapus history
+        // Fungsi untuk hapus history
         async function hapusHistory(kode, index) {
             if (!confirm('Apakah Anda yakin ingin menghapus history ini?')) return;
 
@@ -920,20 +741,22 @@
                 const masuk = parseInt(masukInput.value) || 0;
                 const tanggalMasuk = tanggalMasukInput.value;
                 const keterangan = keteranganInput.value;
-                const hasSerialNumber = hasSerialNumberInput.checked;                if (!kode || !nama) {
-                    alert('Item code and name are required!');
+                const hasSerialNumber = hasSerialNumberInput.checked;
+
+                if (!kode || !nama) {
+                    alert('Kode dan nama barang harus diisi!');
                     return;
                 }
 
-                // Validate serial numbers
+                // Validasi serial number
                 if (hasSerialNumber) {
                     if (masuk > 0 && (!serialNumbers || serialNumbers.length === 0)) {
-                        alert('Please add at least one serial number for incoming items!');
+                        alert('Harap tambahkan minimal satu serial number untuk barang masuk!');
                         return;
                     }
 
                     if (masuk > 0 && serialNumbers.length !== masuk) {
-                        alert(`Number of serial numbers (${serialNumbers.length}) must match the quantity of incoming items (${masuk})!`);
+                        alert(`Jumlah serial number (${serialNumbers.length}) harus sama dengan jumlah barang masuk (${masuk})!`);
                         return;
                     }
                 }
@@ -1058,25 +881,12 @@
             updateTabel();
         }
 
-        // Fungsi untuk update pagination dan dokumentasi
+        // Fungsi untuk update pagination
         function updatePagination() {
             const totalPages = Math.ceil(filteredData.length / rowsPerPage);
-            document.getElementById('pageInfo').textContent = `Halaman ${currentPage} dari ${totalPages}`;
+            document.getElementById('pageInfo').textContent = `Page ${currentPage} of ${totalPages}`;
             document.getElementById('prevBtn').disabled = currentPage === 1;
             document.getElementById('nextBtn').disabled = currentPage === totalPages;
-            
-            // Update label baris yang ditampilkan
-            const start = (currentPage - 1) * rowsPerPage + 1;
-            const end = Math.min(currentPage * rowsPerPage, filteredData.length);
-            document.getElementById('rowsInfo').textContent = `Showing rows ${start}-${end} of ${filteredData.length} entries`;
-        }
-
-        // Fungsi untuk mengubah jumlah baris per halaman
-        function changeRowsPerPage() {
-            const select = document.getElementById('rowsPerPage');
-            rowsPerPage = parseInt(select.value);
-            currentPage = 1; // Reset ke halaman pertama
-            updateTabel();
         }
 
         // Fungsi untuk next page
@@ -1202,23 +1012,24 @@
             const barang = inventaris.find(item => item.kode === kode);
             if (!barang) return;
 
-            // Reset transaksiSerialNumbers when opening modal
-            transaksiSerialNumbers = [];
-
-            // Count outgoing and returned serial numbers
+            // Hitung jumlah keluar dan return untuk setiap serial number
             const keluarCount = {};
             const returnCount = {};
 
             barang.history.forEach(history => {
                 if (history.tipe === 'keluar' && Array.isArray(history.serialNumbers)) {
-                    history.serialNumbers.forEach(sn => keluarCount[sn] = (keluarCount[sn] || 0) + 1);
+                    history.serialNumbers.forEach(sn => {
+                        keluarCount[sn] = (keluarCount[sn] || 0) + 1;
+                    });
                 }
                 if (history.tipe === 'return' && Array.isArray(history.serialNumbers)) {
-                    history.serialNumbers.forEach(sn => returnCount[sn] = (returnCount[sn] || 0) + 1);
+                    history.serialNumbers.forEach(sn => {
+                        returnCount[sn] = (returnCount[sn] || 0) + 1;
+                    });
                 }
             });
 
-            // Get serial numbers that can be returned (more outgoing than returns)
+            // Serial number yang jumlah keluar > jumlah return
             const availableReturnSerialNumbers = Object.keys(keluarCount).filter(sn => 
                 (keluarCount[sn] || 0) > (returnCount[sn] || 0)
             );
@@ -1229,156 +1040,166 @@
 
             if (availableReturnSerialNumbers.length === 0) {
                 const tr = document.createElement('tr');
-                tr.innerHTML = `<td colspan="2" class="text-center">No serial numbers available for return</td>`;
+                tr.innerHTML = `<td colspan="2" class="text-center">Tidak ada serial number yang bisa di-return</td>`;
                 tbody.appendChild(tr);
                 return;
-            }            availableReturnSerialNumbers.forEach(sn => {
+            }
+
+            availableReturnSerialNumbers.forEach(sn => {
                 const tr = document.createElement('tr');
-                const numOut = keluarCount[sn] || 0;
-                const numReturned = returnCount[sn] || 0;
-                const remaining = numOut - numReturned;
-                
-                // Create elements individually for better control
-                const td1 = document.createElement('td');
-                const div = document.createElement('div');
-                div.className = 'form-check';
-                
-                const input = document.createElement('input');
-                input.className = 'form-check-input';
-                input.type = 'checkbox';
-                input.value = sn;
-                input.id = `return-checkbox-${sn}`;
-                input.checked = transaksiSerialNumbers.includes(sn);
-                input.addEventListener('change', () => toggleTransaksiSerialNumber(sn));
-                
-                const label = document.createElement('label');
-                label.className = 'form-check-label';
-                label.htmlFor = `return-checkbox-${sn}`;
-                label.textContent = sn;
-                
-                div.appendChild(input);
-                div.appendChild(label);
-                td1.appendChild(div);
-                
-                const td2 = document.createElement('td');
-                td2.textContent = `Out: ${numOut}, Returned: ${numReturned}, Available for return: ${remaining}`;
-                
-                tr.appendChild(td1);
-                tr.appendChild(td2);
+                tr.innerHTML = `
+                    <td>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" 
+                                value="${sn}" 
+                                onchange="toggleTransaksiSerialNumber('${sn}')"
+                                ${transaksiSerialNumbers.includes(sn) ? 'checked' : ''}>
+                            <label class="form-check-label">${sn}</label>
+                        </div>
+                    </td>
+                    <td>Keluar</td>
+                `;
                 tbody.appendChild(tr);
             });
 
-            // Update quantity field with selected serial numbers count
             document.getElementById('transaksiJumlah').value = transaksiSerialNumbers.length;
+        }
+
+        // Tambahkan fungsi untuk menampilkan modal return
+        function showTransaksiModal(kode, tipe) {
+            const barang = inventaris.find(item => item.kode === kode);
+            if (!barang) return;
+
+            // Reset transaksiSerialNumbers setiap kali modal dibuka
+            transaksiSerialNumbers = [];
+
+            document.getElementById('transaksiKode').value = kode;
+            document.getElementById('transaksiTipe').value = tipe;
+            document.getElementById('transaksiKodeBarang').value = barang.kode;
+            document.getElementById('transaksiNamaBarang').value = barang.nama;
+            document.getElementById('transaksiJumlah').value = '';
+            document.getElementById('transaksiTanggal').value = new Date().toISOString().split('T')[0];
+            document.getElementById('transaksiKeterangan').value = '';
+            
+            const serialNumberContainer = document.getElementById('serialNumberContainer');
+            const serialNumberInputContainer = document.getElementById('serialNumberInputContainer');
+            const serialNumberSelectContainer = document.getElementById('serialNumberSelectContainer');
+
+            // Jika barang tidak punya serial number, sembunyikan semua form serial number
+            if (!barang.serialNumbers || barang.serialNumbers.length === 0) {
+                if (serialNumberContainer) serialNumberContainer.style.display = 'none';
+            } else {
+                // Untuk return, selalu tampilkan form serial number (jika ada history keluar yang belum di-return)
+                if (tipe === 'return') {
+                    if (serialNumberContainer) serialNumberContainer.style.display = 'block';
+                    if (serialNumberInputContainer) serialNumberInputContainer.style.display = 'none';
+                    if (serialNumberSelectContainer) serialNumberSelectContainer.style.display = 'block';
+                    updateReturnSerialNumbers(kode);
+                } else if (tipe === 'keluar') {
+                    if (serialNumberContainer) serialNumberContainer.style.display = 'block';
+                    if (serialNumberInputContainer) serialNumberInputContainer.style.display = 'none';
+                    if (serialNumberSelectContainer) serialNumberSelectContainer.style.display = 'block';
+                    updateAvailableSerialNumbers(kode);
+                } else if (tipe === 'restock') {
+                    if (serialNumberContainer) serialNumberContainer.style.display = 'block';
+                    if (serialNumberInputContainer) serialNumberInputContainer.style.display = 'block';
+                    if (serialNumberSelectContainer) serialNumberSelectContainer.style.display = 'none';
+                    const serialNumberInput = document.getElementById('transaksiSerialNumber');
+                    if (serialNumberInput) {
+                        serialNumberInput.value = '';
+                    }
+                }
+            }
+
+            // Update judul modal
+            const judul = tipe === 'restock' ? 'Restock Barang' : 
+                         tipe === 'return' ? 'Return Barang' : 'Barang Keluar';
+            document.getElementById('transaksiModalLabel').textContent = judul;
+
+            const modal = new bootstrap.Modal(document.getElementById('transaksiModal'));
+            modal.show();
         }
 
         function updateAvailableSerialNumbers(kode) {
             const barang = inventaris.find(item => item.kode === kode);
             if (!barang) return;
 
-            // Hitung jumlah keluar dan return untuk setiap serial number
-            const keluarCount = {};
-            const returnCount = {};
+            // Pastikan serialNumbers adalah array
+            const serialNumbersArr = Array.isArray(barang.serialNumbers) ? barang.serialNumbers : [];
 
-            // Sort history by date to process events in chronological order
-            const sortedHistory = [...barang.history].sort((a, b) => 
-                new Date(a.tanggal) - new Date(b.tanggal)
-            );
-
-            // Process history chronologically
-            sortedHistory.forEach(history => {
-                if (history.serialNumbers) {
-                    history.serialNumbers.forEach(sn => {
-                        if (history.tipe === 'keluar') {
-                            keluarCount[sn] = (keluarCount[sn] || 0) + 1;
-                        } else if (history.tipe === 'return') {
-                            returnCount[sn] = (returnCount[sn] || 0) + 1;
-                        }
-                    });
+            // Kumpulkan semua serial number yang pernah keluar
+            const usedSerialNumbers = new Set();
+            barang.history.forEach(history => {
+                if (history.tipe === 'keluar' && history.serialNumbers) {
+                    history.serialNumbers.forEach(sn => usedSerialNumbers.add(sn));
                 }
             });
 
-            // Serial number yang tersedia untuk pickup (jumlah return >= jumlah keluar)
-            const availableSerialNumbers = barang.serialNumbers.filter(sn => {
-                const timesOut = keluarCount[sn] || 0;
-                const timesReturned = returnCount[sn] || 0;
-                return timesReturned >= timesOut;
+            // Kumpulkan semua serial number yang sudah di-return
+            const returnedSerialNumbers = new Set();
+            barang.history.forEach(history => {
+                if (history.tipe === 'return' && history.serialNumbers) {
+                    history.serialNumbers.forEach(sn => returnedSerialNumbers.add(sn));
+                }
             });
+
+            // Filter serial number yang tersedia (termasuk yang sudah di-return)
+            const availableSerialNumbers = serialNumbersArr.filter(sn =>
+                !usedSerialNumbers.has(sn) || returnedSerialNumbers.has(sn)
+            );
 
             const tbody = document.getElementById('transaksiSerialNumberList');
             if (!tbody) return;
-            tbody.innerHTML = '';
 
-            // Reset transaksiSerialNumbers to match available serial numbers
-            transaksiSerialNumbers = transaksiSerialNumbers.filter(sn => 
-                availableSerialNumbers.includes(sn)
-            );
+            tbody.innerHTML = '';
 
             if (availableSerialNumbers.length === 0) {
                 const tr = document.createElement('tr');
-                tr.innerHTML = `<td colspan="2" class="text-center">No serial numbers available for pickup</td>`;
+                tr.innerHTML = `
+                    <td colspan="2" class="text-center">Tidak ada serial number yang tersedia</td>
+                `;
                 tbody.appendChild(tr);
-                document.getElementById('transaksiJumlah').value = 0;
                 return;
-            }            availableSerialNumbers.forEach(sn => {
+            }
+
+            availableSerialNumbers.forEach(sn => {
                 const tr = document.createElement('tr');
-                const timesOut = keluarCount[sn] || 0;
-                const timesReturned = returnCount[sn] || 0;
-                const available = timesReturned - timesOut;
-                
-                // Create elements individually for better control
-                const td1 = document.createElement('td');
-                const div = document.createElement('div');
-                div.className = 'form-check';
-                
-                const input = document.createElement('input');
-                input.className = 'form-check-input';
-                input.type = 'checkbox';
-                input.value = sn;
-                input.id = `pickup-checkbox-${sn}`;
-                input.checked = transaksiSerialNumbers.includes(sn);
-                input.addEventListener('change', () => toggleTransaksiSerialNumber(sn));
-                
-                const label = document.createElement('label');
-                label.className = 'form-check-label';
-                label.htmlFor = `pickup-checkbox-${sn}`;
-                label.textContent = sn;
-                
-                div.appendChild(input);
-                div.appendChild(label);
-                td1.appendChild(div);
-                
-                const td2 = document.createElement('td');
-                td2.textContent = `Out: ${timesOut}, Returned: ${timesReturned}, Available for pickup: ${available}`;
-                
-                tr.appendChild(td1);
-                tr.appendChild(td2);
+                const isReturned = returnedSerialNumbers.has(sn);
+                tr.innerHTML = `
+                    <td>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" 
+                                value="${sn}" 
+                                onchange="toggleTransaksiSerialNumber('${sn}')"
+                                ${transaksiSerialNumbers.includes(sn) ? 'checked' : ''}>
+                            <label class="form-check-label">${sn}</label>
+                        </div>
+                    </td>
+                    <td>${isReturned ? 'Returned' : 'Tersedia'}</td>
+                `;
                 tbody.appendChild(tr);
             });
-
-            document.getElementById('transaksiJumlah').value = transaksiSerialNumbers.length;
         }
 
         function toggleTransaksiSerialNumber(serialNumber) {
-            const checkbox = event.target;
-            console.log('Toggle event for serial number:', serialNumber, 'New state:', checkbox.checked);
-            
-            if (checkbox.checked) {
-                if (!transaksiSerialNumbers.includes(serialNumber)) {
-                    transaksiSerialNumbers.push(serialNumber);
-                    console.log('Added to array:', serialNumber);
-                }
+            const index = transaksiSerialNumbers.indexOf(serialNumber);
+            if (index === -1) {
+                transaksiSerialNumbers.push(serialNumber);
             } else {
-                const idx = transaksiSerialNumbers.indexOf(serialNumber);
-                if (idx !== -1) {
-                    transaksiSerialNumbers.splice(idx, 1);
-                    console.log('Removed from array:', serialNumber);
-                }
+                transaksiSerialNumbers.splice(index, 1);
             }
             
-            // Update quantity field
+            // Update jumlah sesuai tipe transaksi
+            const tipe = document.getElementById('transaksiTipe').value;
             document.getElementById('transaksiJumlah').value = transaksiSerialNumbers.length;
-            console.log('Current transaksiSerialNumbers:', transaksiSerialNumbers);
+            
+            // Update tampilan list untuk memastikan checkbox tetap terpilih
+            const kode = document.getElementById('transaksiKode').value;
+            if (tipe === 'keluar') {
+                updateAvailableSerialNumbers(kode);
+            } else if (tipe === 'return') {
+                updateReturnSerialNumbers(kode);
+            }
         }
 
         function addTransaksiSerialNumber() {
@@ -1450,7 +1271,7 @@
                 const keterangan = document.getElementById('transaksiKeterangan').value;
 
                 if (!jumlah || !tanggal) {
-                    alert('Quantity and date are required!');
+                    alert('Jumlah dan tanggal harus diisi!');
                     return;
                 }
 
@@ -1462,65 +1283,81 @@
                     barang.history = [];
                 }
 
-                // Validate serial numbers if item has them
+                // Validasi serial number hanya jika barang punya serial
                 if (barang.serialNumbers && barang.serialNumbers.length > 0) {
+                    if (tipe === 'restock' && transaksiSerialNumbers.length === 0) {
+                        alert('Harap tambahkan minimal satu serial number untuk barang masuk!');
+                        return;
+                    }
+                    if (tipe === 'keluar' && transaksiSerialNumbers.length === 0) {
+                        alert('Harap pilih serial number yang akan keluar!');
+                        return;
+                    }
                     if (tipe === 'return' && transaksiSerialNumbers.length === 0) {
-                        alert('Please select serial numbers for return!');
+                        alert('Harap pilih serial number untuk barang return!');
                         return;
                     }
 
+                    if (tipe === 'restock' && transaksiSerialNumbers.length !== jumlah) {
+                        alert(`Jumlah serial number (${transaksiSerialNumbers.length}) harus sama dengan jumlah barang masuk (${jumlah})!`);
+                        return;
+                    }
+                    if (tipe === 'keluar' && transaksiSerialNumbers.length !== jumlah) {
+                        alert(`Jumlah serial number yang dipilih (${transaksiSerialNumbers.length}) harus sama dengan jumlah barang keluar (${jumlah})!`);
+                        return;
+                    }
                     if (tipe === 'return' && transaksiSerialNumbers.length !== jumlah) {
-                        alert(`Number of selected serial numbers (${transaksiSerialNumbers.length}) must match the return quantity (${jumlah})!`);
+                        alert(`Jumlah serial number (${transaksiSerialNumbers.length}) harus sama dengan jumlah barang return (${jumlah})!`);
                         return;
                     }
                 }
+                // Untuk barang tanpa serial, tidak perlu validasi serial number
 
-                // Save state before changes
+                // Simpan state sebelum perubahan
                 saveState('transaksi');
 
-                // Create history entry with serial numbers
+                // Buat history entry
                 const historyEntry = {
                     tipe: tipe,
                     jumlah: jumlah,
                     tanggal: tanggal,
-                    keterangan: keterangan || (tipe === 'restock' ? 'Restock' : tipe === 'return' ? 'Return' : 'Pickup'),
-                    serialNumbers: transaksiSerialNumbers
+                    keterangan: keterangan || (tipe === 'restock' ? 'Restock' : tipe === 'return' ? 'Return' : 'Distributed'),
+                    serialNumbers: (barang.serialNumbers && barang.serialNumbers.length > 0) ? [...transaksiSerialNumbers] : []
                 };
 
-                // Add to history
+                // Tambahkan ke history
                 barang.history.push(historyEntry);
 
-                // Handle serial numbers based on transaction type
-                if (barang.serialNumbers && Array.isArray(barang.serialNumbers)) {
-                    if (tipe === 'return') {
-                        // For returns, add serial numbers back to the available list
-                        transaksiSerialNumbers.forEach(sn => {
-                            if (!barang.serialNumbers.includes(sn)) {
-                                barang.serialNumbers.push(sn);
-                            }
-                        });
+                // Update serial numbers berdasarkan tipe transaksi
+                if (barang.serialNumbers && barang.serialNumbers.length > 0) {
+                    if (tipe === 'restock') {
+                        barang.serialNumbers = [...(barang.serialNumbers || []), ...transaksiSerialNumbers];
+                    } else if (tipe === 'keluar') {
+                        barang.serialNumbers = barang.serialNumbers.filter(sn => !transaksiSerialNumbers.includes(sn));
+                    } else if (tipe === 'return') {
+                        barang.serialNumbers = [...(barang.serialNumbers || []), ...transaksiSerialNumbers];
                     }
                 }
 
-                // Recalculate totals
+                // Hitung ulang total
                 const updatedBarang = recalculateTotals(barang);
 
-                // Save to server
+                // Simpan ke server
                 await updateInventaris(updatedBarang);
                 
                 // Reset transaksiSerialNumbers
                 transaksiSerialNumbers = [];
                 
-                // Close modal
+                // Tutup modal
                 const modal = bootstrap.Modal.getInstance(document.getElementById('transaksiModal'));
                 modal.hide();
                 
                 // Refresh data
                 await fetchInventaris();
-                alert('Transaction saved successfully!');
+                alert('Transaksi berhasil disimpan!');
             } catch (error) {
                 console.error('Error in prosesTransaksi:', error);
-                alert('Failed to save transaction: ' + error.message);
+                alert('Gagal menyimpan transaksi: ' + error.message);
             }
         }
 
@@ -1630,150 +1467,6 @@
             // Load initial data
             fetchInventaris();
         });
-
-        // Modal Stock Change History per barang
-        let currentStockHistoryKode = null;
-        function showStockChangeHistoryModalPerBarang(kode) {
-            currentStockHistoryKode = kode;
-            document.getElementById('filterStartDate').value = '';
-            document.getElementById('filterEndDate').value = '';
-            renderStockChangeHistoryPerBarang();
-            const modal = new bootstrap.Modal(document.getElementById('stockChangeHistoryModal'));
-            modal.show();
-        }
-
-        function renderStockChangeHistoryPerBarang(filtered = null) {
-            const tbody = document.getElementById('stockHistoryTableBodyPerBarang');
-            tbody.innerHTML = '';
-            const barang = inventaris.find(item => item.kode === currentStockHistoryKode);
-            if (!barang) return;
-            // Urutkan history dari terlama ke terbaru
-            const sortedHistory = [...barang.history].sort((a, b) => new Date(a.tanggal) - new Date(b.tanggal));
-            let currentStock = 0;
-            let allChanges = [];
-            sortedHistory.forEach(history => {
-                const qty = parseInt(history.jumlah) || 0;
-                const previousStock = currentStock;
-                let change = 0;
-                if (history.tipe === 'restock') {
-                    change = qty;
-                    currentStock += qty;
-                } else if (history.tipe === 'keluar') {
-                    change = -qty;
-                    currentStock -= qty;
-                } else if (history.tipe === 'return') {
-                    change = qty;
-                    currentStock += qty;
-                }
-                allChanges.push({
-                    tanggal: history.tanggal,
-                    previousStock,
-                    change,
-                    newStock: currentStock,
-                    tipe: history.tipe
-                });
-            });
-            // Filter jika ada
-            if (filtered) {
-                allChanges = allChanges.filter(filtered);
-            }
-            // Tampilkan
-            allChanges.forEach(item => {
-                // Format tanggal dengan jam:menit:detik jika ada
-                let tgl = item.tanggal;
-                if (tgl && tgl.length > 10) {
-                    const d = new Date(tgl);
-                    tgl = d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0') + ' ' + String(d.getHours()).padStart(2,'0') + ':' + String(d.getMinutes()).padStart(2,'0') + ':' + String(d.getSeconds()).padStart(2,'0');
-                }
-                const tr = document.createElement('tr');
-                tr.innerHTML = `
-                    <td>${tgl}</td>
-                    <td>${item.previousStock}</td>
-                    <td class="${item.change > 0 ? 'text-success' : 'text-danger'}">${item.change > 0 ? '+' : ''}${item.change}</td>
-                    <td>${item.newStock}</td>
-                    <td>${item.tipe}</td>
-                `;
-                tbody.appendChild(tr);
-            });
-        }
-
-        function filterStockChangeHistoryPerBarang() {
-            const start = document.getElementById('filterStartDate').value;
-            const end = document.getElementById('filterEndDate').value;
-            let filterFn = null;
-            if (start && end) {
-                filterFn = item => new Date(item.tanggal) >= new Date(start) && new Date(item.tanggal) <= new Date(end);
-            } else if (start) {
-                filterFn = item => new Date(item.tanggal) >= new Date(start);
-            } else if (end) {
-                filterFn = item => new Date(item.tanggal) <= new Date(end);
-            }
-            renderStockChangeHistoryPerBarang(filterFn);
-        }
-
-        function showTransaksiModal(kode, tipe) {
-            const barang = inventaris.find(item => item.kode === kode);
-            if (!barang) return;
-
-            // Reset transaksiSerialNumbers setiap kali modal dibuka
-            transaksiSerialNumbers = [];
-
-            document.getElementById('transaksiKode').value = kode;
-            document.getElementById('transaksiTipe').value = tipe;
-            document.getElementById('transaksiKodeBarang').value = barang.kode;
-            document.getElementById('transaksiNamaBarang').value = barang.nama;
-            document.getElementById('transaksiJumlah').value = '';
-            document.getElementById('transaksiTanggal').value = new Date().toISOString().split('T')[0];
-            document.getElementById('transaksiKeterangan').value = '';
-
-            const serialNumberContainer = document.getElementById('serialNumberContainer');
-            const serialNumberInputContainer = document.getElementById('serialNumberInputContainer');
-            const serialNumberSelectContainer = document.getElementById('serialNumberSelectContainer');
-            const serialNumberInput = document.getElementById('transaksiSerialNumber');
-            const serialNumberList = document.getElementById('transaksiSerialNumberList');
-
-            // RESET SEMUA: hide, kosongkan value/input, kosongkan daftar
-            if (serialNumberInputContainer) serialNumberInputContainer.style.display = 'none';
-            if (serialNumberSelectContainer) serialNumberSelectContainer.style.display = 'none';
-            if (serialNumberInput) serialNumberInput.value = '';
-            if (serialNumberList) serialNumberList.innerHTML = '';
-
-            // Deteksi barang tipe serial number (dengan properti hasSerialNumber atau pernah punya serialNumbers)
-            const isSerial = barang.hasSerialNumber === true || (Array.isArray(barang.serialNumbers) && barang.serialNumbers !== undefined);
-
-            // Jika barang bukan tipe serial number, sembunyikan semua form serial number
-            if (!isSerial) {
-                if (serialNumberContainer) serialNumberContainer.style.display = 'none';
-            } else {
-                if (serialNumberContainer) serialNumberContainer.style.display = 'block';
-                if (tipe === 'return') {
-                    if (serialNumberSelectContainer) serialNumberSelectContainer.style.display = 'block';
-                    updateReturnSerialNumbers(kode);
-                } else if (tipe === 'restock') {
-                    if (serialNumberInputContainer) serialNumberInputContainer.style.display = 'block';
-                } else if (tipe === 'keluar') {
-                    if (serialNumberSelectContainer) serialNumberSelectContainer.style.display = 'block';
-                    updateAvailableSerialNumbers(kode);
-                }
-            }
-
-            // Update judul modal
-            const judul = tipe === 'restock' ? 'Restock Item' : 
-                         tipe === 'return' ? 'Return Item' : 'Pickup Item';
-            document.getElementById('transaksiModalLabel').textContent = judul;
-
-            const modal = new bootstrap.Modal(document.getElementById('transaksiModal'));
-            modal.show();
-        }
-
-        function logout() {
-            // Clear login state
-            sessionStorage.removeItem('isLoggedIn');
-            // Redirect to login page
-            window.location.href = 'login.html';
-        }
-
-        window.showTransaksiModal = showTransaksiModal;
     </script>
 </body>
 </html>
