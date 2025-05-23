@@ -1,0 +1,5214 @@
+[
+  {
+    "kode": "GM-POP-00038-0035",
+    "nama": "TRIPOD BANNER STAND",
+    "masuk": 3,
+    "keluar": 3,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 3,
+        "tanggal": "2024-11-18",
+        "keterangan": "JD0428541221"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-02-03",
+        "keterangan": "DIGIPLUS / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-02-03",
+        "keterangan": "GTN / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2024-11-19",
+        "keterangan": "ERAFONE / ILHAM"
+      }
+    ]
+  },
+  {
+    "kode": "PG.2020072707",
+    "nama": "OASE PORTABLE FAN LD22F (WHITE PINK)",
+    "masuk": 20,
+    "keluar": 20,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 20,
+        "tanggal": "2025-01-06",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 20,
+        "tanggal": "2025-03-12",
+        "keterangan": "return MDO"
+      }
+    ]
+  },
+  {
+    "kode": "PG.2020111902",
+    "nama": "OASE WIRELESS MINI HOME THEATER S3",
+    "masuk": 3,
+    "keluar": 3,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 3,
+        "tanggal": "2025-01-06",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 3,
+        "tanggal": "2025-03-12",
+        "keterangan": "return MDO"
+      }
+    ]
+  },
+  {
+    "kode": "PG.2021120705",
+    "nama": "A95 STYLE PROTECTOR CASE - BLACK",
+    "masuk": 8,
+    "keluar": 0,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 8,
+        "tanggal": "2025-01-06",
+        "keterangan": "Imported"
+      }
+    ]
+  },
+  {
+    "kode": "PG.2021120706",
+    "nama": "A95 STYLE PROTECTOR CASE - DARK BLUE",
+    "masuk": 8,
+    "keluar": 0,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 8,
+        "tanggal": "2025-01-06",
+        "keterangan": "Imported"
+      }
+    ]
+  },
+  {
+    "kode": "PG.2021120707",
+    "nama": "A95 STYLE PROTECTOR CASE - PINK",
+    "masuk": 12,
+    "keluar": 0,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 12,
+        "tanggal": "2025-01-06",
+        "keterangan": "Imported"
+      }
+    ]
+  },
+  {
+    "kode": "PG.2021120708",
+    "nama": "A95 STYLE PROTECTOR CASE - PURPLE",
+    "masuk": 12,
+    "keluar": 0,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 12,
+        "tanggal": "2025-01-06",
+        "keterangan": "Imported"
+      }
+    ]
+  },
+  {
+    "kode": "PG.2022020301",
+    "nama": "COUPLE UV SUNGLASSES LP-VD",
+    "masuk": 8,
+    "keluar": 0,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 8,
+        "tanggal": "2025-01-06",
+        "keterangan": "Imported"
+      }
+    ]
+  },
+  {
+    "kode": "PG.2022031504",
+    "nama": "WIRELESS MINI SOUNDBAR LP-S2",
+    "masuk": 30,
+    "keluar": 30,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 30,
+        "tanggal": "2025-01-06",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 30,
+        "tanggal": "2024-01-26",
+        "keterangan": "EVENT NATARU 2026"
+      }
+    ]
+  },
+  {
+    "kode": "PG.9020350.1",
+    "nama": "LP01 2 in 1 giftbox ( bluetooth headset + Smart Bracelet )",
+    "masuk": 50,
+    "keluar": 50,
+    "history": [
+      {
+        "tipe": "keluar",
+        "jumlah": 50,
+        "tanggal": "2024-01-26",
+        "keterangan": "EVENT NATARU 2025"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 50,
+        "tanggal": "2025-01-06",
+        "keterangan": "Imported"
+      }
+    ]
+  },
+  {
+    "kode": "PG.9020665",
+    "nama": "PROTECTION CASE W11C GREEN",
+    "masuk": 10,
+    "keluar": 10,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 10,
+        "tanggal": "2025-01-06",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 10,
+        "tanggal": "2025-03-12",
+        "keterangan": "return MDO"
+      }
+    ]
+  },
+  {
+    "kode": "PG.9020944",
+    "nama": "OASE NECKBAND WIRELESS EARPHONE KJ11 - BLACK",
+    "masuk": 10,
+    "keluar": 10,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 10,
+        "tanggal": "2025-01-06",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 10,
+        "tanggal": "2025-03-12",
+        "keterangan": "return MDO"
+      }
+    ]
+  },
+  {
+    "kode": "PG.9020945",
+    "nama": "OASE NECKBAND WIRELESS EARPHONE KJ11 - GREY",
+    "masuk": 5,
+    "keluar": 5,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 5,
+        "tanggal": "2025-01-06",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 5,
+        "tanggal": "2025-03-12",
+        "keterangan": "return MDO"
+      }
+    ]
+  },
+  {
+    "kode": "GM-POP-00031-0005",
+    "nama": "TENT COVER",
+    "masuk": 10,
+    "keluar": 7,
+    "history": [
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2024-12-26",
+        "keterangan": "PINJAM ISTANA EVENT"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 10,
+        "tanggal": "2025-01-07",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-02-10",
+        "keterangan": "JD0449000706"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-01",
+        "keterangan": "JAYA CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-12",
+        "keterangan": "PINJAM KODIM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-03-17",
+        "keterangan": "MULIA CELL3, MATARAM (SAPRIL)"
+      },
+      {
+        "tipe": "return",
+        "jumlah": 1,
+        "tanggal": "2025-03-17",
+        "keterangan": "KEMBALI KODIM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-17",
+        "keterangan": "PINJAM ILAHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-17",
+        "keterangan": "PINJAM NUR EVENT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-24",
+        "keterangan": "EVENT MULIA CELL - CICILITA"
+      },
+      {
+        "tipe": "return",
+        "jumlah": 1,
+        "tanggal": "2025-03-26",
+        "keterangan": "NURJANA-LKT"
+      }
+    ]
+  },
+  {
+    "kode": "GM-POP-00031-0006",
+    "nama": "TENT TIANG",
+    "masuk": 5,
+    "keluar": 4,
+    "history": [
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2024-12-26",
+        "keterangan": "PINJAM ISTANA EVENT"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 5,
+        "tanggal": "2025-01-07",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-17",
+        "keterangan": "PINJAM PLATINUM2"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-02-10",
+        "keterangan": "JD0449000706"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-12",
+        "keterangan": "PINJAM KODIM"
+      },
+      {
+        "tipe": "return",
+        "jumlah": 1,
+        "tanggal": "2025-03-17",
+        "keterangan": "KEMBALI KODIM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-17",
+        "keterangan": "PINJAM ILHAM"
+      }
+    ]
+  },
+  {
+    "kode": "KABEL ALARM",
+    "nama": "KABEL ALARM(TYPE C)",
+    "masuk": 4,
+    "keluar": 4,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 4,
+        "tanggal": "2025-01-08",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 3,
+        "tanggal": "2025-01-08",
+        "keterangan": "DIGIPLUS / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-01",
+        "keterangan": "ERAFONE"
+      }
+    ]
+  },
+  {
+    "kode": "POP.4814392",
+    "nama": "8 PORT SECURITY CONTROLLER",
+    "masuk": 1,
+    "keluar": 0,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 1,
+        "tanggal": "2025-01-09",
+        "keterangan": "Imported"
+      }
+    ]
+  },
+  {
+    "kode": "FILM LIGHTBOX R13 240",
+    "nama": "FILM LIGHTBOX R13 240",
+    "masuk": 9,
+    "keluar": 9,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 9,
+        "tanggal": "2025-01-09",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-23",
+        "keterangan": "YONGKI CELL / NUR"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-10",
+        "keterangan": "MEKO CELL / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-10",
+        "keterangan": "SANDY CELL / ILAHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-10",
+        "keterangan": "PALU BUNTULIA / SAPRIL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-10",
+        "keterangan": "PALU CELL TILAMUTA / SAPRIL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-10",
+        "keterangan": "CENTRAL CELL / SAPRIL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-10",
+        "keterangan": "PALU CELL / PAGUAT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-10",
+        "keterangan": "ALFA CELL / SAPRIL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-10",
+        "keterangan": "PLATINUM MARISA / SAPRIL"
+      }
+    ]
+  },
+  {
+    "kode": "FILM LIGHTBOX R13 360",
+    "nama": "FILM LIGHTBOX R13 360",
+    "masuk": 5,
+    "keluar": 5,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 5,
+        "tanggal": "2025-01-09",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-10",
+        "keterangan": "CAHAYA PHONE / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-10",
+        "keterangan": "MATARAM / SAPRIL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-10",
+        "keterangan": "DG CELL / SAPRIL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-10",
+        "keterangan": "GTO CELL / SAPRIL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-10",
+        "keterangan": "JNT / JD0441765251"
+      }
+    ]
+  },
+  {
+    "kode": "FILM LIGHTBOX R13 361",
+    "nama": "FILM LIGTBOX R13 160",
+    "masuk": 3,
+    "keluar": 3,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 3,
+        "tanggal": "2025-01-09",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-10",
+        "keterangan": "GLOBAL JT / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-10",
+        "keterangan": "PALU CELL TOUPA / SAPRIL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-10",
+        "keterangan": "BINTANG CELL / SAPRIL"
+      }
+    ]
+  },
+  {
+    "kode": "POP.6060263",
+    "nama": "SHOWCASE POWER CORD (4805694)",
+    "masuk": 4,
+    "keluar": 0,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 4,
+        "tanggal": "2025-01-09",
+        "keterangan": "Imported"
+      }
+    ]
+  },
+  {
+    "kode": "POP.6060270",
+    "nama": "RODA REM (SEKRUP)",
+    "masuk": 4,
+    "keluar": 0,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 4,
+        "tanggal": "2025-01-09",
+        "keterangan": "Imported"
+      }
+    ]
+  },
+  {
+    "kode": "BALLON PUTIH R13",
+    "nama": "BALLON PUTIH R13",
+    "masuk": 400,
+    "keluar": 300,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 400,
+        "tanggal": "2025-01-11",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 30,
+        "tanggal": "2025-01-22",
+        "keterangan": "MEYLAN / KING CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 40,
+        "tanggal": "2025-01-21",
+        "keterangan": "ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 10,
+        "tanggal": "2025-01-21",
+        "keterangan": "NUR"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 20,
+        "tanggal": "2025-01-20",
+        "keterangan": "SAPRIL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 50,
+        "tanggal": "2025-02-12",
+        "keterangan": "PLATINUM2 / NUR"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 50,
+        "tanggal": "2025-02-12",
+        "keterangan": "PLATINUM2 / NUR"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 100,
+        "tanggal": "2025-03-14",
+        "keterangan": "BUKBER"
+      }
+    ]
+  },
+  {
+    "kode": "BALLON UNGU R13",
+    "nama": "BALLON UNGU R13",
+    "masuk": 400,
+    "keluar": 200,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 400,
+        "tanggal": "2025-01-11",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 30,
+        "tanggal": "2025-01-22",
+        "keterangan": "MEYLAN / KING CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 40,
+        "tanggal": "2025-01-21",
+        "keterangan": "ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 10,
+        "tanggal": "2025-01-21",
+        "keterangan": "NUR"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 20,
+        "tanggal": "2025-01-20",
+        "keterangan": "SAPRIL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 100,
+        "tanggal": "2025-03-14",
+        "keterangan": "BUKBER"
+      }
+    ]
+  },
+  {
+    "kode": "CARD DESIGN A RENO12 5G",
+    "nama": "CARD DESIGN A RENO12 5G",
+    "masuk": 1,
+    "keluar": 1,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 1,
+        "tanggal": "2025-01-11",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-21",
+        "keterangan": "SINTIA / ERAFONE LIMBOTO"
+      }
+    ]
+  },
+  {
+    "kode": "CARD DESIGN A RENO12 5G HOROSCOP",
+    "nama": "CARD DESIGN A RENO12 5G HOROSCOP",
+    "masuk": 1,
+    "keluar": 1,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 1,
+        "tanggal": "2025-01-11",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-13",
+        "keterangan": "GTN / FITRAN"
+      }
+    ]
+  },
+  {
+    "kode": "CARD DESIGN A RENO12 F 5G",
+    "nama": "CARD DESIGN A RENO12 F 5G",
+    "masuk": 3,
+    "keluar": 2,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 3,
+        "tanggal": "2025-01-11",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-21",
+        "keterangan": "SINTIA / ERAFONE LIMBOTO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-15",
+        "keterangan": "JAYA ABADI / MEYLAN"
+      }
+    ]
+  },
+  {
+    "kode": "ENCO BUDS2",
+    "nama": "ENCO BUDS2",
+    "masuk": 2,
+    "keluar": 1,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 2,
+        "tanggal": "2025-01-11",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-13",
+        "keterangan": "GTN / FITRAN"
+      }
+    ]
+  },
+  {
+    "kode": "FILM STANDING LIGHTED(SMALL)",
+    "nama": "FILM STANDING LIGHTED(SMALL)",
+    "masuk": 6,
+    "keluar": 5,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 5,
+        "tanggal": "2025-01-11",
+        "keterangan": "JD0441598631"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "JAYA CELL / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-13",
+        "keterangan": "BLI BLI / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-13",
+        "keterangan": "QIANA3 / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-13",
+        "keterangan": "KING CELL / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-13",
+        "keterangan": "PLATINUM2 / NUR"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 1,
+        "tanggal": "2025-01-14",
+        "keterangan": "BATAL BLIBLI / ILHAM"
+      }
+    ]
+  },
+  {
+    "kode": "MAGNETIC CASE R12 5G",
+    "nama": "MAGNETIC CASE R12 5G",
+    "masuk": 2,
+    "keluar": 2,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 2,
+        "tanggal": "2025-01-11",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-21",
+        "keterangan": "SINTIA / ERAFONE LIMBOTO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-13",
+        "keterangan": "GTN / FITRAN"
+      }
+    ]
+  },
+  {
+    "kode": "MAGNETIC CASE R12 PRO",
+    "nama": "MAGNETIC CASE R12 PRO",
+    "masuk": 1,
+    "keluar": 1,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 1,
+        "tanggal": "2025-01-11",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-21",
+        "keterangan": "GTN / LAURA"
+      }
+    ]
+  },
+  {
+    "kode": "MAGNETIC CASE R12F",
+    "nama": "MAGNETIC CASE R12F",
+    "masuk": 28,
+    "keluar": 14,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 28,
+        "tanggal": "2025-01-11",
+        "keterangan": "JD0441819940"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-21",
+        "keterangan": "SINTIA / ERAFONE LIMBOTO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-01-15",
+        "keterangan": "JAYA ABADI / MEYLAN"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-01-14",
+        "keterangan": "JNT / MATARAM / AYU SINTIA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-13",
+        "keterangan": "ERAFONE KOTA / VITA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-13",
+        "keterangan": "ERAFONE KOTA / VITA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-13",
+        "keterangan": "ERAFONE KOTA / VITA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-13",
+        "keterangan": "ERAFONE KOTA / VITA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-13",
+        "keterangan": "GTN / ARIF"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-13",
+        "keterangan": "CAHAYA PHONE / SEPTI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 3,
+        "tanggal": "2025-01-13",
+        "keterangan": "CAHAYA PHONE / PARAMITHA"
+      }
+    ]
+  },
+  {
+    "kode": "PREORDER  FLYER",
+    "nama": "PREODER FLYER",
+    "masuk": 300,
+    "keluar": 500,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 300,
+        "tanggal": "2025-01-11",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 300,
+        "tanggal": "2025-01-15",
+        "keterangan": "DISPOSAL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 20,
+        "tanggal": "2025-01-14",
+        "keterangan": "JNT / IFA CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 15,
+        "tanggal": "2025-01-14",
+        "keterangan": "JNT / MAJAHAPIT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 15,
+        "tanggal": "2025-01-14",
+        "keterangan": "JNT / MATARAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 15,
+        "tanggal": "2025-01-14",
+        "keterangan": "JNT / DG CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 15,
+        "tanggal": "2025-01-14",
+        "keterangan": "JNT / JAYA CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 15,
+        "tanggal": "2025-01-14",
+        "keterangan": "JNT / PALU CELL MARISA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 15,
+        "tanggal": "2025-01-14",
+        "keterangan": "JNT / PLATINUM MARISA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 20,
+        "tanggal": "2025-01-14",
+        "keterangan": "JNT / SALSABILA BINTAUNA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 15,
+        "tanggal": "2025-01-14",
+        "keterangan": "JNT /SALSABILA BOROKO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 15,
+        "tanggal": "2025-01-14",
+        "keterangan": "JNT / BINTANG CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 20,
+        "tanggal": "2025-01-13",
+        "keterangan": "PLATINUM2 / NUR"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 20,
+        "tanggal": "2025-01-13",
+        "keterangan": "ISTANA ACC / ARIF"
+      }
+    ]
+  },
+  {
+    "kode": "PREORDER CARD",
+    "nama": "PREODER CARD",
+    "masuk": 90,
+    "keluar": 157,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 90,
+        "tanggal": "2025-01-11",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 90,
+        "tanggal": "2025-01-15",
+        "keterangan": "DISPOSAL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 5,
+        "tanggal": "2025-01-14",
+        "keterangan": "JNT / IFA CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 5,
+        "tanggal": "2025-01-14",
+        "keterangan": "JNT / MAJAHAPIT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 5,
+        "tanggal": "2025-01-14",
+        "keterangan": "JNT / MATARAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 5,
+        "tanggal": "2025-01-14",
+        "keterangan": "JNT / DG CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 5,
+        "tanggal": "2025-01-14",
+        "keterangan": "JNT / JAYA CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 5,
+        "tanggal": "2025-01-14",
+        "keterangan": "JNT / PALU CELL MARISA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 4,
+        "tanggal": "2025-01-14",
+        "keterangan": "JNT / PLATINUM MARISA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 5,
+        "tanggal": "2025-01-14",
+        "keterangan": "JNT / SALSABILA BINTAUNA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 5,
+        "tanggal": "2025-01-14",
+        "keterangan": "JNT /SALSABILA BOROKO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 4,
+        "tanggal": "2025-01-14",
+        "keterangan": "JNT / BINTANG CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 15,
+        "tanggal": "2025-01-13",
+        "keterangan": "PLATINUM2 / NUR"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 4,
+        "tanggal": "2025-01-13",
+        "keterangan": "ISTANA ACC / ARIF"
+      }
+    ]
+  },
+  {
+    "kode": "SPESIAL CARD ML RENO12 F",
+    "nama": "SPESIAL CARD ML RENO12 F",
+    "masuk": 26,
+    "keluar": 13,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 26,
+        "tanggal": "2025-01-11",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-21",
+        "keterangan": "DEWI SEPTIAN"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-15",
+        "keterangan": "JAYA ABADI / MEYLAN"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-01-14",
+        "keterangan": "JNT / MATARAM / AYU SINTIA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-13",
+        "keterangan": "ERAFONE KOTA / VITA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-13",
+        "keterangan": "ERAFONE KOTA / VITA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-13",
+        "keterangan": "ERAFONE KOTA / VITA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-13",
+        "keterangan": "ERAFONE KOTA / VITA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-13",
+        "keterangan": "GTN / ARIF"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-13",
+        "keterangan": "CAHAYA PHONE / SEPTI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 3,
+        "tanggal": "2025-01-13",
+        "keterangan": "CAHAYA PHONE / PARAMITHA"
+      }
+    ]
+  },
+  {
+    "kode": "SPESIAL SHOWCASE 3D CARD(KUPU-KUPU+KSP+INFORMASI PROMO)",
+    "nama": "SPESIAL SHOWCASE 3D CARD(KUPU-KUPU+KSP+INFORMASI PROMO)",
+    "masuk": 10,
+    "keluar": 10,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 10,
+        "tanggal": "2025-01-11",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "TOKO HP / NUR"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "MAHKOTA / SAPRIL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "KING CELL / MEYLAN"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "CAHAYA PHONE2"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "QIANA3"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-14",
+        "keterangan": "JNT / MAJAHAPIT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-14",
+        "keterangan": "JNT / IFA CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-14",
+        "keterangan": "JNT / MATARAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-01-13",
+        "keterangan": "ISTANA ACC / ARIF"
+      }
+    ]
+  },
+  {
+    "kode": "STIKER MEJA DEMO",
+    "nama": "STIKER MEJA DEMO",
+    "masuk": 5,
+    "keluar": 5,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 5,
+        "tanggal": "2025-01-11",
+        "keterangan": "JD0441571515\r\nJD0441414234"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-14",
+        "keterangan": "JD0442988463/ PALU CELL BUNTULIA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-14",
+        "keterangan": "JD0442056953 / GLOBAL CELL(TOKO BARU)"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-13",
+        "keterangan": "KING CELL / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-13",
+        "keterangan": "ISTANA ACC / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-13",
+        "keterangan": "ERAFONE LIMBOTO / ILHAM"
+      }
+    ]
+  },
+  {
+    "kode": "GM-POP-00025-0001",
+    "nama": "PROPS LIGHTFONT REPLACMENT  BIG CHAMPAGNE GOLD",
+    "masuk": 3,
+    "keluar": 1,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 3,
+        "tanggal": "2025-01-13",
+        "keterangan": "JD0442198094 / GERY"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-14",
+        "keterangan": "JNT / MAJAHAPIT"
+      }
+    ]
+  },
+  {
+    "kode": "BUTTERFLY LIVE FOTO",
+    "nama": "BUTTERFLY LIVE FOTO",
+    "masuk": 10,
+    "keluar": 9,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 10,
+        "tanggal": "2025-01-13",
+        "keterangan": "JD0441425743 / GERY"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-13",
+        "keterangan": "TRAINER"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-14",
+        "keterangan": "JNT / DG CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-14",
+        "keterangan": "JNT / JAYA CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-14",
+        "keterangan": "PLATINUM / NUR"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-14",
+        "keterangan": "YUNI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "ERAFONE/NOVITA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-23",
+        "keterangan": "GTN / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-23",
+        "keterangan": "DIGIPLUS / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-23",
+        "keterangan": "QIANA3"
+      }
+    ]
+  },
+  {
+    "kode": "ACRYLIC TENTCARD",
+    "nama": "ACRYLIC TENTCARD",
+    "masuk": 10,
+    "keluar": 10,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 10,
+        "tanggal": "2025-01-16",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-01-16",
+        "keterangan": "ISTANA ACC / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-01",
+        "keterangan": "JAYA CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-03-13",
+        "keterangan": "KING,MEKO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-03-17",
+        "keterangan": "SALSA BINTAUNA, BUROKO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 3,
+        "tanggal": "2025-03-18",
+        "keterangan": "buloila,mulia cell1,mulia cell3"
+      }
+    ]
+  },
+  {
+    "kode": "GM-POP-00025-0036",
+    "nama": "PROPS RENO13 COLOR CARD (651101000273)",
+    "masuk": 10,
+    "keluar": 3,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 10,
+        "tanggal": "2025-01-16",
+        "keterangan": "JD0442884611"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-23",
+        "keterangan": "PLATINUM / DIO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "ARIF MULYANTO THAIB"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-02-08",
+        "keterangan": "RIZKY"
+      }
+    ]
+  },
+  {
+    "kode": "GM-POP-00025-0037",
+    "nama": "PROPS INFORMATION TRAY DISPLAY (651101000215) 3.0 PRO",
+    "masuk": 10,
+    "keluar": 5,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 10,
+        "tanggal": "2025-01-16",
+        "keterangan": "JD0442884611"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-23",
+        "keterangan": "QIANA3 / SAPRIL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "DIGIPLUS / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "ERAFONE LIMBOTO / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "ARIF MULYANTO THAIB / ISTANA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "PLATINUM / DIO"
+      }
+    ]
+  },
+  {
+    "kode": "GM-POP-00025-0002",
+    "nama": "PROPS LIGHTFONT REPLACMENT  SMALL CHAMPAGNE GOLD",
+    "masuk": 16,
+    "keluar": 16,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 10,
+        "tanggal": "2025-01-16",
+        "keterangan": "JD0442001091"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-16",
+        "keterangan": "ISTANA ACC / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-16",
+        "keterangan": "KING CELL / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-16",
+        "keterangan": "BLI BLI / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-16",
+        "keterangan": "QIANA2 / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-16",
+        "keterangan": "ERA LIMBOTO /ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-16",
+        "keterangan": "MAHKOTA / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-16",
+        "keterangan": "PLATINUM / AK"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "DIGIPLUS / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "PALU CELL BUNTULIA / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "GLOBAL CELL / TOKO BARU"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-20",
+        "keterangan": "MAJAHIT /JD0444151550"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-20",
+        "keterangan": "DG CELL / JD0444333180"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-20",
+        "keterangan": "MATARAM / JD04441754"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-20",
+        "keterangan": "GORONTALO CELL / JNT"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 4,
+        "tanggal": "2025-01-20",
+        "keterangan": "JD0443733251"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 1,
+        "tanggal": "2025-01-20",
+        "keterangan": "DIGIPLUS"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-21",
+        "keterangan": "JAYA CELL /JD0443837491"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 1,
+        "tanggal": "2025-01-25",
+        "keterangan": "QIANA2 / RIZKI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-27",
+        "keterangan": "A2 CELL / JNT"
+      }
+    ]
+  },
+  {
+    "kode": "SPEC CARD",
+    "nama": "SPEC CARD",
+    "masuk": 52,
+    "keluar": 47,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 52,
+        "tanggal": "2025-01-16",
+        "keterangan": "JD0443139499"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 3,
+        "tanggal": "2025-01-30",
+        "keterangan": "SAHRIL BILONDATU"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-23",
+        "keterangan": "FITRAN"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-23",
+        "keterangan": "ARIF"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-23",
+        "keterangan": "NIRAMITA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-22",
+        "keterangan": "CINDY / KING CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-21",
+        "keterangan": "GTN / LAURA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-20",
+        "keterangan": "JNT / YUNAN"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-20",
+        "keterangan": "NURFATINA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "PARAMITHA MANUKE"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "ISTANA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "SEPTI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "NOVITA HASAN"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-17",
+        "keterangan": "GEMIATI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-17",
+        "keterangan": "MOHAMAD AMALU"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-17",
+        "keterangan": "GITA TALIKI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-17",
+        "keterangan": "YULIYANTI NANI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-17",
+        "keterangan": "MEIS"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-17",
+        "keterangan": "PUTRI HARMAIN"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-17",
+        "keterangan": "ADIT MOHA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-17",
+        "keterangan": "AHMAD YASER"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-17",
+        "keterangan": "ALDI HAMZA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-17",
+        "keterangan": "NIRSA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-17",
+        "keterangan": "RIVAL IMBRAN"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-17",
+        "keterangan": "NADIA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-17",
+        "keterangan": "SAHRIL SIOLE"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-17",
+        "keterangan": "MAHMUD KUDOPO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-17",
+        "keterangan": "AYU SINTIA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-17",
+        "keterangan": "NURFADILA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-17",
+        "keterangan": "ADITIA HINELO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-17",
+        "keterangan": "SRI YUNING SULI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-17",
+        "keterangan": "SAIDA BILONDATU"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-17",
+        "keterangan": "MEYLAN"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-17",
+        "keterangan": "FATMA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-17",
+        "keterangan": "RIZKI WOLINGA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-16",
+        "keterangan": "ADAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-16",
+        "keterangan": "FRENGKI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-16",
+        "keterangan": "MEYKE"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-16",
+        "keterangan": "MAIL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-16",
+        "keterangan": "DIO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-16",
+        "keterangan": "WIDYA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-16",
+        "keterangan": "AIN"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-16",
+        "keterangan": "ARLIN"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-16",
+        "keterangan": "IRA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-16",
+        "keterangan": "NAY"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-16",
+        "keterangan": "MIRA"
+      }
+    ]
+  },
+  {
+    "kode": "GM-POP-00025-0038",
+    "nama": "PROPS MAIN DISPLAY 3 PLACEMENT POINITS (651105000070)",
+    "masuk": 5,
+    "keluar": 5,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 5,
+        "tanggal": "2025-01-17",
+        "keterangan": "JD0442114784"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-23",
+        "keterangan": "PLATINUM /DIO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-23",
+        "keterangan": "QIANA3 / SAPRIL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "DIGIPLUS / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "ERAFONE LIMBOTO / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "ARIF MULYANTO THAIB"
+      }
+    ]
+  },
+  {
+    "kode": "LIGHTBOX CUSTOM 0,8X1,6",
+    "nama": "LIGHTBOX CUSTOM 0,8X1,6",
+    "masuk": 1,
+    "keluar": 1,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "MAJAPAHIT / SJ202501133"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "MAJAHIT /JNT"
+      }
+    ]
+  },
+  {
+    "kode": "LIGHTBOX CUSTOM 0,8X2,4",
+    "nama": "LIGHTBOX CUSTOM 0,8X2,4",
+    "masuk": 1,
+    "keluar": 1,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "MAHKOTA / SJ202501133"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "MAHKOTA /SAPRIL"
+      }
+    ]
+  },
+  {
+    "kode": "LIGHTBOX CUSTOM 1,2X1,60",
+    "nama": "LIGHTBOX CUSTOM 1,2X1,60",
+    "masuk": 1,
+    "keluar": 1,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "QIANA3 / SJ202501133"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "QIANA3 / SAPRIL"
+      }
+    ]
+  },
+  {
+    "kode": "FILM LIGHTBOX CUSTOM 1,8X1",
+    "nama": "FILM LIGHTBOX CUSTOM 1,8X1",
+    "masuk": 1,
+    "keluar": 1,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "GTN GTO / SJ202501133"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "GTN / ILHAM"
+      }
+    ]
+  },
+  {
+    "kode": "FILM LIGHTBOX CUSTOM 2X2",
+    "nama": "FILM LIGHTBOX CUSTOM 2X2",
+    "masuk": 1,
+    "keluar": 1,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "PLATINUM2 / SJ202501133"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "PLATINUM / NUR"
+      }
+    ]
+  },
+  {
+    "kode": "FILM LIGHTBOX CUSTOM 3,04X1,2",
+    "nama": "FILM LIGHTBOX CUSTOM 3,04X1,2",
+    "masuk": 1,
+    "keluar": 1,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "ERAFONE LIMBOTO / SJ202501133"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-20",
+        "keterangan": "ERAFONE LIMBOTO"
+      }
+    ]
+  },
+  {
+    "kode": "FILM LIGHTBOX CUSTOM 3,3X1,2",
+    "nama": "FILM LIGHTBOX CUSTOM 3,3X1,2",
+    "masuk": 1,
+    "keluar": 1,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "PALU CELL-BULILI / SJ202501133"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "PALU BULILI /JNT"
+      }
+    ]
+  },
+  {
+    "kode": "GM-POP-00025-0032",
+    "nama": "PROPS RENO13 MAIN DISPLAY 4 PLACEMENT POINTS (651101000236) MINI FONT",
+    "masuk": 6,
+    "keluar": 5,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 6,
+        "tanggal": "2025-01-18",
+        "keterangan": "JD0442001091"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-23",
+        "keterangan": "QIANA3 / SAPRIL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-23",
+        "keterangan": "PLATINUM /DIO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "DIGIPLUS / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "ERAFONE LIMBOTO / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "ARIF MULY / INSTANA"
+      }
+    ]
+  },
+  {
+    "kode": "T-SHIRT RENO13 L",
+    "nama": "T-SHIRT RENO13 L",
+    "masuk": 40,
+    "keluar": 33,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 30,
+        "tanggal": "2025-01-18",
+        "keterangan": "JD0443145384"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "FRENGKI DUNGGIO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "ISMAIL A KONO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "NURAIN HULANGATO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "MEYLAN S BOBIHOE"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-01-18",
+        "keterangan": "NOVITA HASAN"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "FATMAWATI USMAN"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "NURUL FATHINAH AHMAD"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-01-18",
+        "keterangan": "SINTIA YUSUF"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-01-18",
+        "keterangan": "NOVIA HELDA ROMPIS"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-01-18",
+        "keterangan": "CHRISTINE ELSYE LAURA RAWUNG"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "GEMIATI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "GITA WIRYANI TALIKI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "NADYA SAPUTRI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "PUTRIYANI HARMAIN"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "YULIYANTI NANI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "NURJANA SULEMAN"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "NIRAMITA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "NURFADILAH UTINA"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 10,
+        "tanggal": "2025-01-25",
+        "keterangan": "JD0444893922"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-27",
+        "keterangan": "AK"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-27",
+        "keterangan": "ISMAIL A KONO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-27",
+        "keterangan": "WIDYA WALAHI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-27",
+        "keterangan": "NURAIN HULANGATO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "PUTRI HARMAIN"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "NURFADILAH UTINA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "GITA WIRYANI TALIKI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "GEMIATI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "NADYA SAPUTRI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-03-08",
+        "keterangan": "ZULHAM,DELA"
+      }
+    ]
+  },
+  {
+    "kode": "T-SHIRT RENO13 M",
+    "nama": "T-SHIRT RENO13 M",
+    "masuk": 10,
+    "keluar": 10,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 10,
+        "tanggal": "2025-01-18",
+        "keterangan": "JD0443145384"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-02-08",
+        "keterangan": "FARAMITA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "SAFIRA GOBEL / ADAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-27",
+        "keterangan": "MEYKE USMAN"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-27",
+        "keterangan": "ARLIN PAKAYA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "PARAMITHA MANUKE"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "ARLIN PAKAYA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "MEYKE USMAN"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "WIDYA WALAHI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "SAFIRA GOBEL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "ELSA ANTU"
+      }
+    ]
+  },
+  {
+    "kode": "T-SHIRT RENO13 XL",
+    "nama": "T-SHIRT RENO13 XL",
+    "masuk": 43,
+    "keluar": 41,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 33,
+        "tanggal": "2025-01-18",
+        "keterangan": "JD0443145384"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "ARIF MULYANTO THAIB"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "SEPTIANI MASIONU"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "MUCHTAR SUNANDIO HADJI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "ADAM IBRAHIM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "ASTUTI ADAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "FITRAN SABAN"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "DEWI SEPTIANI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "MARYAM SALEH"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "FITRIYANTI TALIB"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "ADIT MOHA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "ADITYA HINELO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "ALDIYANTO HAMZA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "MEYSYIN AMBO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "MOHAMAD AMALU"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "NIRSAN TOMAYAHU"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "RIFAL IMRAN"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "SAHRIL SIOLE"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "SAIDA BILONDATU"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "YUNAN BILONDATU"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "ILHAM HULALATA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-23",
+        "keterangan": "NIRAMITA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-23",
+        "keterangan": "FRENGKI DUNGGIO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-23",
+        "keterangan": "ISKAR"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 10,
+        "tanggal": "2025-01-25",
+        "keterangan": "JD0444893922"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-27",
+        "keterangan": "ASTUTI ADAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "MEYSYIN AMBO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "ADIT MOHA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "FITRIYANTI TALIB / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "MARYAM SALEH / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "DEWI SEPTIANI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "SAIDA BILONDATU"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "ILHAM HULALATA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-30",
+        "keterangan": "NURJANA SULEMAN"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "FITRAN SABAN"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "ARIF MULYANTO THAIB"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-02-03",
+        "keterangan": "SEPTIANI MASIONU"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-02-08",
+        "keterangan": "MOHAMAD AMALU"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-03",
+        "keterangan": "SELLA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-03",
+        "keterangan": "SITI RAHMATIKA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-04",
+        "keterangan": "FAILEX"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-04",
+        "keterangan": "PUTRI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-08",
+        "keterangan": "FITRI"
+      }
+    ]
+  },
+  {
+    "kode": "T-SHIRT RENO13 XXL",
+    "nama": "T-SHIRT RENO13 XXL",
+    "masuk": 15,
+    "keluar": 15,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 15,
+        "tanggal": "2025-01-18",
+        "keterangan": "JD0443145384"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-01-18",
+        "keterangan": "RIZKI WOLINGA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-01-18",
+        "keterangan": "SAHRIL BILONDATU"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "MIRFATHUL JANNAH M. AMU"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-01-18",
+        "keterangan": "AHMAD YASER"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "AYU SINTIA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "MAHMUD KUDOPO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-18",
+        "keterangan": "SRI YUNING SULI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-01-18",
+        "keterangan": "SAPRIL BILONDATU"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-23",
+        "keterangan": "MUCHTAR SUNANDIO HADJI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-23",
+        "keterangan": "ADAM IBRAHIM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "AYU SINTIA"
+      }
+    ]
+  },
+  {
+    "kode": "FILM EASEL A3 ERAFONE",
+    "nama": "FILM EASEL A3 ERAFONE",
+    "masuk": 1,
+    "keluar": 1,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 1,
+        "tanggal": "2025-01-20",
+        "keterangan": "JD0443948380"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-20",
+        "keterangan": "ERAFONE / ILHAM"
+      }
+    ]
+  },
+  {
+    "kode": "FILM TRIPOD ERAFONE",
+    "nama": "FILM TRIPOD ERAFONE",
+    "masuk": 1,
+    "keluar": 1,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 1,
+        "tanggal": "2025-01-20",
+        "keterangan": "JD0443626377"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-20",
+        "keterangan": "ERAFONE / ILHAM"
+      }
+    ]
+  },
+  {
+    "kode": "STIKER ROCKTABLE 240",
+    "nama": "STIKER ROCTABLE 240",
+    "masuk": 1,
+    "keluar": 1,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 1,
+        "tanggal": "2025-01-20",
+        "keterangan": "JD0443948380"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-20",
+        "keterangan": "PLATINUM2 / NUR"
+      }
+    ]
+  },
+  {
+    "kode": "FILM LIGHTED STANDING (BIG) R13",
+    "nama": "FILM LIGHTED STANDING (BIG) R13",
+    "masuk": 9,
+    "keluar": 7,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 7,
+        "tanggal": "2025-01-22",
+        "keterangan": "JD0444073272"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-22",
+        "keterangan": "LISTAR"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-22",
+        "keterangan": "MAHKOTA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-22",
+        "keterangan": "ISTANA ACC"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-22",
+        "keterangan": "PALU BUNTULIA / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-22",
+        "keterangan": "PALU CELL TILAMUTA / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-22",
+        "keterangan": "MAJAPAHIT / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-22",
+        "keterangan": "DG / JNT"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 1,
+        "tanggal": "2025-01-22",
+        "keterangan": "LISTAR"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 1,
+        "tanggal": "2025-01-23",
+        "keterangan": "ISTANA"
+      }
+    ]
+  },
+  {
+    "kode": "FILM SHOWCASE CORNER R13",
+    "nama": "FILM SHOWCASE CORNER R13",
+    "masuk": 16,
+    "keluar": 15,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 15,
+        "tanggal": "2025-01-22",
+        "keterangan": "JD0444073272"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-22",
+        "keterangan": "PLATINUM2/NUR"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-22",
+        "keterangan": "KING CELL / MEYLAN"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-22",
+        "keterangan": "RADJA DAGANG"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-22",
+        "keterangan": "MAHKOTA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-22",
+        "keterangan": "ISTANA ACC / AK"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-22",
+        "keterangan": "PALU BUNTULIA / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-22",
+        "keterangan": "DG / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-22",
+        "keterangan": "CAHAYA PHONE2 / AK"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-22",
+        "keterangan": "HIQMAH CELL / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-22",
+        "keterangan": "GLOBAL CELL (new rivald) / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-22",
+        "keterangan": "SANDY"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-22",
+        "keterangan": "BINTANG CELL / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-22",
+        "keterangan": "MAJAPAHIT / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-22",
+        "keterangan": "IFA CELL / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-22",
+        "keterangan": "GLOBAL BARU (JALAN TENGAH)"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 1,
+        "tanggal": "2025-01-22",
+        "keterangan": "RAJA DAGANG"
+      }
+    ]
+  },
+  {
+    "kode": "FOLDING BOX ENCO AIR",
+    "nama": "FOLDING BOX ENCO AIR",
+    "masuk": 329,
+    "keluar": 169,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 151,
+        "tanggal": "2025-01-22",
+        "keterangan": "JD444327069"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 20,
+        "tanggal": "2025-02-06",
+        "keterangan": "GORONTALO CELL / JNT MOH. AMALU"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 20,
+        "tanggal": "2025-01-28",
+        "keterangan": "ILHAM HULALATA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 3,
+        "tanggal": "2025-01-27",
+        "keterangan": "A2 CELL / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 12,
+        "tanggal": "2025-01-27",
+        "keterangan": "DG CELL / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 10,
+        "tanggal": "2025-01-27",
+        "keterangan": "PLATINUM / ALRIN"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 3,
+        "tanggal": "2025-01-24",
+        "keterangan": "ADWA CELL / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 3,
+        "tanggal": "2025-01-24",
+        "keterangan": "SALSABILA BINTAUNA / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 3,
+        "tanggal": "2025-01-24",
+        "keterangan": "SALSABILA BUROKO / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 3,
+        "tanggal": "2025-01-24",
+        "keterangan": "MULIA CELL2 / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 3,
+        "tanggal": "2025-01-24",
+        "keterangan": "JAYA CELL / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 3,
+        "tanggal": "2025-01-24",
+        "keterangan": "BINTANG CELL / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 3,
+        "tanggal": "2025-01-24",
+        "keterangan": "GLOBAL CELL BARU / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 3,
+        "tanggal": "2025-01-24",
+        "keterangan": "PALU CELL BUNTULIA / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 3,
+        "tanggal": "2025-01-24",
+        "keterangan": "DG CELL / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 3,
+        "tanggal": "2025-01-24",
+        "keterangan": "GLOBAL JALAN TENGAH"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 3,
+        "tanggal": "2025-01-24",
+        "keterangan": "CAHAYA2 / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 3,
+        "tanggal": "2025-01-23",
+        "keterangan": "TOKO HP / NUR"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 3,
+        "tanggal": "2025-01-23",
+        "keterangan": "MAHKOTA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 3,
+        "tanggal": "2025-01-23",
+        "keterangan": "KING CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 13,
+        "tanggal": "2025-01-23",
+        "keterangan": "QIANA3"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 21,
+        "tanggal": "2025-01-23",
+        "keterangan": "PLATINUM2"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 3,
+        "tanggal": "2025-01-22",
+        "keterangan": "MATARAM / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 3,
+        "tanggal": "2025-01-22",
+        "keterangan": "IFA CELL / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 3,
+        "tanggal": "2025-01-22",
+        "keterangan": "MAJAPAHIT / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 16,
+        "tanggal": "2025-01-22",
+        "keterangan": "ISTANA / AK"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 3,
+        "tanggal": "2025-01-22",
+        "keterangan": "CAHAYA / AK"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 150,
+        "tanggal": "2025-01-25",
+        "keterangan": "HQ / DR-250-1138.1 / 1326291816"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 28,
+        "tanggal": "2025-01-27",
+        "keterangan": "JD0444611090 / MDO"
+      }
+    ]
+  },
+  {
+    "kode": "FOLDING BOX R13",
+    "nama": "FOLDING BOX R13",
+    "masuk": 496,
+    "keluar": 319,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 209,
+        "tanggal": "2025-01-22",
+        "keterangan": "JD444327069"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 6,
+        "tanggal": "2025-01-22",
+        "keterangan": "MATARAM / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 6,
+        "tanggal": "2025-01-22",
+        "keterangan": "IFA CELL / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 6,
+        "tanggal": "2025-01-22",
+        "keterangan": "MAJAPAHIT / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 32,
+        "tanggal": "2025-01-22",
+        "keterangan": "ISTANA / AK"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 30,
+        "tanggal": "2025-01-22",
+        "keterangan": "PLATINUM / AK"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 6,
+        "tanggal": "2025-01-22",
+        "keterangan": "CAHAYA / AK"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 6,
+        "tanggal": "2025-01-23",
+        "keterangan": "TOKO HP / NUR"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 6,
+        "tanggal": "2025-01-23",
+        "keterangan": "MAHKOTA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 6,
+        "tanggal": "2025-01-23",
+        "keterangan": "KING CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 16,
+        "tanggal": "2025-01-23",
+        "keterangan": "QIANA3"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 6,
+        "tanggal": "2025-01-24",
+        "keterangan": "ADWA CELL / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 6,
+        "tanggal": "2025-01-24",
+        "keterangan": "SALSABILA BINTAUNA / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 6,
+        "tanggal": "2025-01-24",
+        "keterangan": "SALSABILA BUROKO / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 6,
+        "tanggal": "2025-01-24",
+        "keterangan": "MULIA CELL2 / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 6,
+        "tanggal": "2025-01-24",
+        "keterangan": "JAYA CELL / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 6,
+        "tanggal": "2025-01-24",
+        "keterangan": "BINTANG CELL / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 6,
+        "tanggal": "2025-01-24",
+        "keterangan": "GLOBAL CELL BARU / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 6,
+        "tanggal": "2025-01-24",
+        "keterangan": "PALU CELL BUNTULIA / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 6,
+        "tanggal": "2025-01-24",
+        "keterangan": "DG CELL / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 6,
+        "tanggal": "2025-01-24",
+        "keterangan": "GLOBAL JALAN TENGAH"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 6,
+        "tanggal": "2025-01-24",
+        "keterangan": "CAHAYA2 / ILHAM"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 250,
+        "tanggal": "2025-01-25",
+        "keterangan": "HQ / DR-250-1138.1 / 1326219216"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 6,
+        "tanggal": "2025-01-27",
+        "keterangan": "A2 CELL / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 17,
+        "tanggal": "2025-01-27",
+        "keterangan": "DG CELL / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 20,
+        "tanggal": "2025-01-28",
+        "keterangan": "ILHAM HULALATA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 36,
+        "tanggal": "2025-02-06",
+        "keterangan": "GORONTALO CELL / JNT MOH. AMALU"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 4,
+        "tanggal": "2025-02-17",
+        "keterangan": "SAPRIL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 50,
+        "tanggal": "2025-02-17",
+        "keterangan": "MALIK MDO"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 37,
+        "tanggal": "2025-03-13",
+        "keterangan": "MDO"
+      }
+    ]
+  },
+  {
+    "kode": "GIFT STANDE R13",
+    "nama": "GIFT STANDE R13",
+    "masuk": 20,
+    "keluar": 8,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 10,
+        "tanggal": "2025-01-22",
+        "keterangan": "JD0444016464"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 5,
+        "tanggal": "2025-02-17",
+        "keterangan": "ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-02-17",
+        "keterangan": "SAPRIL (QIANA3,MAHKOTA)"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-02-17",
+        "keterangan": "NUR"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 10,
+        "tanggal": "2025-02-20",
+        "keterangan": "JD0451109524"
+      }
+    ]
+  },
+  {
+    "kode": "BRACKET PROPS",
+    "nama": "BRACKET PROPS",
+    "masuk": 10,
+    "keluar": 9,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 5,
+        "tanggal": "2025-01-23",
+        "keterangan": "JD0444647956"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-01-23",
+        "keterangan": "PLATINUM / DIO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-01-23",
+        "keterangan": "QIANA3 / SAPRIL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-01-28",
+        "keterangan": "DIGIPLUS / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-01-28",
+        "keterangan": "ERAFONE LIMBOTO / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "ARIF MULYANTO THAIB"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 5,
+        "tanggal": "2025-01-25",
+        "keterangan": "JD0444893926"
+      }
+    ]
+  },
+  {
+    "kode": "FILM INFORMATION TRAY R13",
+    "nama": "FILM INFORMATION TRAY R13",
+    "masuk": 6,
+    "keluar": 5,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 6,
+        "tanggal": "2025-01-23",
+        "keterangan": "JD0444647956"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "ARIF MULYANTO THAIB"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "DIGIPLUS / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "ERAFONE LIMBOTO / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-23",
+        "keterangan": "PLATINUM / DIO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-23",
+        "keterangan": "QIANA3/ SAPRIL"
+      }
+    ]
+  },
+  {
+    "kode": "HILIGHTED CARD R13",
+    "nama": "HIGLIGHTED CARD R13",
+    "masuk": 3,
+    "keluar": 1,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 3,
+        "tanggal": "2025-01-23",
+        "keterangan": "JD0444647956"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-02-06",
+        "keterangan": "PALU CELL"
+      }
+    ]
+  },
+  {
+    "kode": "4 ENCO AIR",
+    "nama": "4 ENCO AIR",
+    "masuk": 2,
+    "keluar": 1,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 2,
+        "tanggal": "2025-01-25",
+        "keterangan": "JD0445175916"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-25",
+        "keterangan": "vio / digiplus"
+      }
+    ]
+  },
+  {
+    "kode": "GIFT PO RENO13 BLACK",
+    "nama": "GIFT PO RENO13 BLACK",
+    "masuk": 25,
+    "keluar": 25,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 25,
+        "tanggal": "2025-01-25",
+        "keterangan": "JD0445175916"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-25",
+        "keterangan": "novita / erafone"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 4,
+        "tanggal": "2025-01-26",
+        "keterangan": "ADAM / PLATINUM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-26",
+        "keterangan": "JNT /"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "FITRAN / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-01-31",
+        "keterangan": "NURJANA / DIO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-02-08",
+        "keterangan": "DEWI SEPTIANI / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 15,
+        "tanggal": "2025-03-13",
+        "keterangan": "return MDO"
+      }
+    ]
+  },
+  {
+    "kode": "GIFT PO RENO13 PURPLE",
+    "nama": "GIFT PO RENO13 PURPLE",
+    "masuk": 25,
+    "keluar": 25,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 25,
+        "tanggal": "2025-01-25",
+        "keterangan": "JD0445175916"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-25",
+        "keterangan": "novita / erafone"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-25",
+        "keterangan": "novita / erafone"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 3,
+        "tanggal": "2025-01-26",
+        "keterangan": "ADAM / PLATINUM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 3,
+        "tanggal": "2025-01-26",
+        "keterangan": "JNT /"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-26",
+        "keterangan": "FRENGKI / PLATINUM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-01-27",
+        "keterangan": "ISMAIL /PLATINUM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "FITRIYANTI / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "DIO / NUR"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "ASTUTI/NUR"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "LAURA / BLIBLI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-02-04",
+        "keterangan": "FATMAWATI USMAN"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-02-08",
+        "keterangan": "ASTUTI ADAM/Y"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-02-08",
+        "keterangan": "MEYKE  / FRENGKI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-02-22",
+        "keterangan": "MARYAM SALEH"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 6,
+        "tanggal": "2025-03-13",
+        "keterangan": "return MDO"
+      }
+    ]
+  },
+  {
+    "kode": "SPESIAL SHOWCASE 3D CARD-BOX KECIL",
+    "nama": "SPESIAL SHOWCASE 3D CARD-BOX KECIL",
+    "masuk": 40,
+    "keluar": 25,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 20,
+        "tanggal": "2025-01-25",
+        "keterangan": "HQ / DR-250-1138.1 / 1325762092"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 6,
+        "tanggal": "2025-02-06",
+        "keterangan": "GORONTALO CELL / JNT MOH. AMALU"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-02-05",
+        "keterangan": "TOKO HP / NUR"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-01-28",
+        "keterangan": "ISTANA / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "KING CELL / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "CAHAYA PHONE2 / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 12,
+        "tanggal": "2025-01-27",
+        "keterangan": "MAPAHIT, IFA, MATARAM, ADWA CELL, SALSABILA BUROKO,MULIA CELL2, JAYA CELL, BINTANG CELL, GLOBAL CELL,PALU CELL, DG CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-02-22",
+        "keterangan": "FITRAN"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 20,
+        "tanggal": "2025-01-25",
+        "keterangan": "JD0444893926"
+      }
+    ]
+  },
+  {
+    "kode": "SPESIAL SHOWCASE 3D CARD-INFORMASI PROMO",
+    "nama": "SPESIAL SHOWCASE 3D CARD-INFORMASI PROMO",
+    "masuk": 65,
+    "keluar": 25,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 50,
+        "tanggal": "2025-01-25",
+        "keterangan": "HQ / DR-250-1138.1 / 1325901386 /1326129245"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 6,
+        "tanggal": "2025-02-06",
+        "keterangan": "GORONTALO CELL / JNT MOH. AMALU"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-02-05",
+        "keterangan": "TOKO HP / NUR"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-01-28",
+        "keterangan": "ISTANA / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "KING CELL / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "CAHAYA PHONE2 / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 12,
+        "tanggal": "2025-01-27",
+        "keterangan": "MAPAHIT, IFA, MATARAM, ADWA CELL, SALSABILA BUROKO,MULIA CELL2, JAYA CELL, BINTANG CELL, GLOBAL CELL,PALU CELL, DG CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-02-22",
+        "keterangan": "FITRAN"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 15,
+        "tanggal": "2025-01-27",
+        "keterangan": "JD0444611090 / MDO"
+      }
+    ]
+  },
+  {
+    "kode": "SPESIAL SHOWCASE 3D CARD-KSP",
+    "nama": "SPESIAL SHOWCASE 3D CARD-KSP",
+    "masuk": 40,
+    "keluar": 18,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 20,
+        "tanggal": "2025-01-25",
+        "keterangan": "HQ / DR-250-1138.1 / 1326161296"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 6,
+        "tanggal": "2025-02-06",
+        "keterangan": "GORONTALO CELL / JNT MOH. AMALU"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 12,
+        "tanggal": "2025-01-27",
+        "keterangan": "MAPAHIT, IFA, MATARAM, ADWA CELL, SALSABILA BUROKO,MULIA CELL2, JAYA CELL, BINTANG CELL, GLOBAL CELL,PALU CELL, DG CELL"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 20,
+        "tanggal": "2025-01-25",
+        "keterangan": "JD0444893925"
+      }
+    ]
+  },
+  {
+    "kode": "SPESIAL SHOWCASE 3D CARD-KUPU-KUPU",
+    "nama": "SPESIAL SHOWCASE 3D CARD-KUPU-KUPU",
+    "masuk": 40,
+    "keluar": 21,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 20,
+        "tanggal": "2025-01-25",
+        "keterangan": "HQ / DR-250-1138.1 / 1325791961"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 6,
+        "tanggal": "2025-02-06",
+        "keterangan": "GORONTALO CELL / JNT MOH. AMALU"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-02-05",
+        "keterangan": "TOKO HP / NUR"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 12,
+        "tanggal": "2025-01-27",
+        "keterangan": "MAPAHIT, IFA, MATARAM, ADWA CELL, SALSABILA BUROKO,MULIA CELL2, JAYA CELL, BINTANG CELL, GLOBAL CELL,PALU CELL, DG CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-02-22",
+        "keterangan": "FITRAN"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 20,
+        "tanggal": "2025-01-25",
+        "keterangan": "JD0444893923"
+      }
+    ]
+  },
+  {
+    "kode": "SPESIAL SHOWCASE 3D CARD-RENO13",
+    "nama": "SPESIAL SHOWCASE 3D CARD-RENO13",
+    "masuk": 39,
+    "keluar": 6,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 20,
+        "tanggal": "2025-01-25",
+        "keterangan": "HQ / DR-250-1138.1 / 1326005430"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 6,
+        "tanggal": "2025-02-06",
+        "keterangan": "GORONTALO CELL / JNT MOH. AMALU"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 19,
+        "tanggal": "2025-01-25",
+        "keterangan": "JD0444893924"
+      }
+    ]
+  },
+  {
+    "kode": "KUPU TRAY INFORMATION",
+    "nama": "KUPU TRAY INFORMATION",
+    "masuk": 7,
+    "keluar": 5,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 7,
+        "tanggal": "2025-01-27",
+        "keterangan": "JD0444611090"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-27",
+        "keterangan": "PLATINUM / ARLIN"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "DIGIPLUS / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "ERAFONE LIMBOTO / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-28",
+        "keterangan": "QIANA3 / ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "ARIF MULYANTO THAIB"
+      }
+    ]
+  },
+  {
+    "kode": "SMALL LIGHTFONT 2024",
+    "nama": "SMALL LIGHTFONT 2024",
+    "masuk": 1,
+    "keluar": 1,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 1,
+        "tanggal": "2025-01-27",
+        "keterangan": "DARI DIGIPLUS"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-27",
+        "keterangan": "A2 CELL / JNT"
+      }
+    ]
+  },
+  {
+    "kode": "HANGING ERAFONE RENO13",
+    "nama": "HANGING ERAFONE RENO13",
+    "masuk": 1,
+    "keluar": 0,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 1,
+        "tanggal": "2025-01-30",
+        "keterangan": "JD0446262916"
+      }
+    ]
+  },
+  {
+    "kode": "POLYFOAM LIGHTFONT R13",
+    "nama": "POLYFOAM LIGHTFONT R13",
+    "masuk": 15,
+    "keluar": 15,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 15,
+        "tanggal": "2025-01-30",
+        "keterangan": "JD0446262916"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "MAJAPAHIT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "MATARAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "GLOBAL CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "GORONTALO CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "JAYA CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "ADWA CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "DG CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "ILHAM HULALATA / ISTANA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "ILHAM HULALATA / KING CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "ILHAM HULALATA / MAHKOTA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "ILHAM HULALATA / ERAFONE LIMBOTO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "ILHAM HULALATA / BLIBLI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "PALU CELL BUNTULIA / JNT"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "PLATINUM2/ NUR"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-01-31",
+        "keterangan": "ARIF MULYANTO THAIB / ISTANA"
+      }
+    ]
+  },
+  {
+    "kode": "FILM TRIPOD BANNER BLIBLI R13",
+    "nama": "FILM TRIPOD BANNER BLIBLI R13",
+    "masuk": 1,
+    "keluar": 0,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 1,
+        "tanggal": "2025-01-30",
+        "keterangan": "JD0446262916"
+      }
+    ]
+  },
+  {
+    "kode": "FILM TRIPOD BANNER DIGIPLUS R13",
+    "nama": "FILM TRIPOD BANNER DIGIPLUS R13",
+    "masuk": 1,
+    "keluar": 0,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 1,
+        "tanggal": "2025-01-30",
+        "keterangan": "JD0446262916"
+      }
+    ]
+  },
+  {
+    "kode": "ACRYLIC HIGHLIGHTED CARD",
+    "nama": "ACRYLIC HIGHLIGHTED CARD",
+    "masuk": 11,
+    "keluar": 4,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 11,
+        "tanggal": "2025-02-06",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-02-06",
+        "keterangan": "PALU CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-19",
+        "keterangan": "ISTANA ACC"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-03-19",
+        "keterangan": "TRACKING"
+      }
+    ]
+  },
+  {
+    "kode": "OPPO CARE RENO13 F SERIES",
+    "nama": "OPPO CARE RENO13 F SERIES",
+    "masuk": 30,
+    "keluar": 30,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 30,
+        "tanggal": "2025-02-24",
+        "keterangan": "JD0451550688"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 15,
+        "tanggal": "2025-02-25",
+        "keterangan": "NURJANA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 4,
+        "tanggal": "2025-02-25",
+        "keterangan": "SAPRIL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 11,
+        "tanggal": "2025-02-25",
+        "keterangan": "ILHAM"
+      }
+    ]
+  },
+  {
+    "kode": "POP.2020080301",
+    "nama": "POWER ADAPTER 2USB/2.1 A Q3S WHITE",
+    "masuk": 2,
+    "keluar": 0,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 2,
+        "tanggal": "2025-03-03",
+        "keterangan": "Imported"
+      }
+    ]
+  },
+  {
+    "kode": "PREODER FLYER",
+    "nama": "PREODER FLYER",
+    "masuk": 200,
+    "keluar": 200,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 200,
+        "tanggal": "2025-01-15",
+        "keterangan": "TARIK ALL STORE"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 200,
+        "tanggal": "2025-01-15",
+        "keterangan": "DISPOSAL"
+      }
+    ]
+  },
+  {
+    "kode": "PREODER CARD",
+    "nama": "PREODER CARD",
+    "masuk": 67,
+    "keluar": 67,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 67,
+        "tanggal": "2025-01-15",
+        "keterangan": "TARIK ALL STORE"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 67,
+        "tanggal": "2025-01-15",
+        "keterangan": "DISPOSAL"
+      }
+    ]
+  },
+  {
+    "kode": "PROPS DIY",
+    "nama": "PROPS BOX AIR A5PRO",
+    "masuk": 10,
+    "keluar": 10,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 10,
+        "tanggal": "2025-03-05",
+        "keterangan": "Stok awal"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 9,
+        "tanggal": "2025-03-05",
+        "keterangan": "Mataram, Majapahit, Gto Cell, Salsabila Bintauna, Buloila Cell, Isimu Cell, Dg cell, Alfa Cell, Palu cell"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-07",
+        "keterangan": "CAHAYA PHONE2"
+      }
+    ]
+  },
+  {
+    "kode": "STIKER GIFT A5",
+    "nama": "STIKER GIFT A5",
+    "masuk": 10,
+    "keluar": 0,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 10,
+        "tanggal": "2025-03-10",
+        "keterangan": "MDO"
+      }
+    ]
+  },
+  {
+    "kode": "FILM TENTCARD A5 PRO AVANTO",
+    "nama": "FILM TENTCARD A5 PRO AVANTO",
+    "masuk": 50,
+    "keluar": 31,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 50,
+        "tanggal": "2025-03-10",
+        "keterangan": "MDO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-03-10",
+        "keterangan": "PLATINUM2-DIO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 11,
+        "tanggal": "2025-03-10",
+        "keterangan": "ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 18,
+        "tanggal": "2025-03-11",
+        "keterangan": "SAPRIL"
+      }
+    ]
+  },
+  {
+    "kode": "FILM TENTCARD A4 RAMADHAN",
+    "nama": "FILM TENTCARD A4 RAMADHAN",
+    "masuk": 50,
+    "keluar": 9,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 50,
+        "tanggal": "2025-03-10",
+        "keterangan": "MDO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 9,
+        "tanggal": "2025-03-14",
+        "keterangan": "LUKOT-SAPRIL"
+      }
+    ]
+  },
+  {
+    "kode": "LDU HC BRACKET 3.0 WHITE (BESAR)",
+    "nama": "LDU HC BRACKET 3.0 WHITE (BESAR)",
+    "masuk": 10,
+    "keluar": 2,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 10,
+        "tanggal": "2025-03-10",
+        "keterangan": "MDO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-03-14",
+        "keterangan": "ILHAM"
+      }
+    ]
+  },
+  {
+    "kode": "DISPLAY GIFT CARD A5 PRO",
+    "nama": "DISPLAY GIFT CARD A5 PRO",
+    "masuk": 10,
+    "keluar": 0,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 10,
+        "tanggal": "2025-03-10",
+        "keterangan": "MDO"
+      }
+    ]
+  },
+  {
+    "kode": "PO CARD A5 PRO",
+    "nama": "PO CARD A5 PRO",
+    "masuk": 50,
+    "keluar": 50,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 50,
+        "tanggal": "2025-03-10",
+        "keterangan": "MDO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 20,
+        "tanggal": "2025-03-10",
+        "keterangan": "PLATIUNUM2-DIO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 10,
+        "tanggal": "2025-03-10",
+        "keterangan": "ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 20,
+        "tanggal": "2025-03-11",
+        "keterangan": "SAPRIL"
+      }
+    ]
+  },
+  {
+    "kode": "GIFTBOX TIMNAS MAGNETIC RED",
+    "nama": "GIFTBOX TIMNAS MAGNETIC RED",
+    "masuk": 18,
+    "keluar": 18,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 10,
+        "tanggal": "2025-02-17",
+        "keterangan": "JD0450244171"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 5,
+        "tanggal": "2025-02-17",
+        "keterangan": "PAJANGAN ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-02-17",
+        "keterangan": "PAJANGAN SAPRIL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-02-17",
+        "keterangan": "PAJANGAN NUR"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-02-17",
+        "keterangan": "PICKUP RIZKY"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 8,
+        "tanggal": "2025-02-21",
+        "keterangan": "MDO PART2"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-02-24",
+        "keterangan": "PICKUP USER ISMAIL KONO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-02-25",
+        "keterangan": "JNT AYU SINTIA"
+      },
+      {
+        "tipe": "return",
+        "jumlah": 1,
+        "tanggal": "2025-03-03",
+        "keterangan": "RETURN NUR PLATINUM"
+      },
+      {
+        "tipe": "return",
+        "jumlah": 1,
+        "tanggal": "2025-03-03",
+        "keterangan": "RETURN KING CELL"
+      },
+      {
+        "tipe": "return",
+        "jumlah": 1,
+        "tanggal": "2025-03-03",
+        "keterangan": "RETURN CAHAYA"
+      },
+      {
+        "tipe": "return",
+        "jumlah": 1,
+        "tanggal": "2025-03-07",
+        "keterangan": "RETURN MAHKOTA SAPRIL"
+      },
+      {
+        "tipe": "return",
+        "jumlah": 1,
+        "tanggal": "2025-03-07",
+        "keterangan": "RETURN DIGIPLUS VIO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-08",
+        "keterangan": "PICKUP SEPTIANI MASIONU"
+      },
+      {
+        "tipe": "return",
+        "jumlah": 1,
+        "tanggal": "2025-03-08",
+        "keterangan": "RETURN GTN"
+      },
+      {
+        "tipe": "return",
+        "jumlah": 1,
+        "tanggal": "2025-03-10",
+        "keterangan": "RETURN QIANA3"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-10",
+        "keterangan": "PICKUP DIO"
+      },
+      {
+        "tipe": "return",
+        "jumlah": 1,
+        "tanggal": "2025-03-10",
+        "keterangan": "RETURN ERAFONE ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 13,
+        "tanggal": "2025-03-13",
+        "keterangan": "return MDO"
+      }
+    ]
+  },
+  {
+    "kode": "BIG BOX A5PRO",
+    "nama": "BIG BOX A5PRO",
+    "masuk": 20,
+    "keluar": 0,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 20,
+        "tanggal": "2025-03-11",
+        "keterangan": "MDO"
+      }
+    ]
+  },
+  {
+    "kode": "STICKER SC DEALER A5PRO",
+    "nama": "STICKER SC DEALER A5PRO",
+    "masuk": 30,
+    "keluar": 20,
+    "history": [
+      {
+        "tipe": "keluar",
+        "jumlah": 7,
+        "tanggal": "2025-03-13",
+        "keterangan": "SAPRIL"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 20,
+        "tanggal": "2025-03-11",
+        "keterangan": "MDO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 3,
+        "tanggal": "2025-03-13",
+        "keterangan": "ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 10,
+        "tanggal": "2025-03-19",
+        "keterangan": "ALL SALES"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 10,
+        "tanggal": "2025-03-20",
+        "keterangan": "MDO"
+      }
+    ]
+  },
+  {
+    "kode": "PG.9020864",
+    "nama": "OASE ELECTRONIC NOTEPAD LWT1 - WHITE",
+    "masuk": 2,
+    "keluar": 2,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 2,
+        "tanggal": "2024-12-26",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-03-12",
+        "keterangan": "return MDO"
+      }
+    ]
+  },
+  {
+    "kode": "PG.9020865",
+    "nama": "OASE ELECTRONIC NOTEPAD LWT1 - BLACK",
+    "masuk": 4,
+    "keluar": 4,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 4,
+        "tanggal": "2024-12-26",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 4,
+        "tanggal": "2025-03-12",
+        "keterangan": "return MDO"
+      }
+    ]
+  },
+  {
+    "kode": "FOLDING BOX A60 CASHBACK",
+    "nama": "FOLDING BOX A60 CASHBACK",
+    "masuk": 37,
+    "keluar": 37,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 37,
+        "tanggal": "2025-03-13",
+        "keterangan": "MDO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 37,
+        "tanggal": "2025-03-19",
+        "keterangan": "ALL SALES"
+      }
+    ]
+  },
+  {
+    "kode": "FOLDING A3X CASHBACK",
+    "nama": "FOLDING A3X CASHBACK",
+    "masuk": 100,
+    "keluar": 50,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 50,
+        "tanggal": "2025-03-13",
+        "keterangan": "MDO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 50,
+        "tanggal": "2025-03-19",
+        "keterangan": "ALL SALES"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 50,
+        "tanggal": "2025-03-20",
+        "keterangan": "MDO"
+      }
+    ]
+  },
+  {
+    "kode": "FOLDING BOX A5PRO BATERAI BESAR",
+    "nama": "FOLDING BOX A5PRO BATERAI BESAR",
+    "masuk": 100,
+    "keluar": 50,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 50,
+        "tanggal": "2025-03-13",
+        "keterangan": "MDO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 50,
+        "tanggal": "2025-03-19",
+        "keterangan": "ALL SALES"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 50,
+        "tanggal": "2025-03-20",
+        "keterangan": "MDO"
+      }
+    ]
+  },
+  {
+    "kode": "FOLDING BOX A5PRO TAHAN BENTURAN",
+    "nama": "FOLDING BOX A5PRO TAHAN BENTURAN",
+    "masuk": 62,
+    "keluar": 50,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 50,
+        "tanggal": "2025-03-13",
+        "keterangan": "MDO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 50,
+        "tanggal": "2025-03-19",
+        "keterangan": "ALL SALES"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 12,
+        "tanggal": "2025-03-20",
+        "keterangan": "MDO"
+      }
+    ]
+  },
+  {
+    "kode": "FOLDING BOX A5PRO TAHAN AIR DAN DEBU",
+    "nama": "FOLDING BOX A5PRO TAHAN AIR DAN DEBU",
+    "masuk": 79,
+    "keluar": 74,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 74,
+        "tanggal": "2025-03-13",
+        "keterangan": "MDO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 74,
+        "tanggal": "2025-03-19",
+        "keterangan": "ALL SALES"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 5,
+        "tanggal": "2025-03-20",
+        "keterangan": "MDO"
+      }
+    ]
+  },
+  {
+    "kode": "FOLDING BOX A5PRO AI LINKBOOST",
+    "nama": "FOLDING BOX A5PRO AI LINKBOOST",
+    "masuk": 74,
+    "keluar": 74,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 74,
+        "tanggal": "2025-03-13",
+        "keterangan": "MDO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 74,
+        "tanggal": "2025-03-19",
+        "keterangan": "ALL SALES"
+      }
+    ]
+  },
+  {
+    "kode": "SPANDUK RAMADHAN A5PRO",
+    "nama": "SPANDUK RAMADHAN A5PRO",
+    "masuk": 10,
+    "keluar": 9,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 10,
+        "tanggal": "2025-03-12",
+        "keterangan": "CETAK SENDIRI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 4,
+        "tanggal": "2025-03-13",
+        "keterangan": "PALU, DG, GTO, ALFA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-13",
+        "keterangan": "ISTANA-ILHAM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-16",
+        "keterangan": "JAYA CELL"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-03-17",
+        "keterangan": "SAPRIL - EVENT FIRT SELLING"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-17",
+        "keterangan": "NURJANA-EVENT"
+      }
+    ]
+  },
+  {
+    "kode": "BALLON TEPUK HIJAU",
+    "nama": "BALLON TEPUK HIJAU",
+    "masuk": 50,
+    "keluar": 30,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 50,
+        "tanggal": "2025-03-18",
+        "keterangan": "Imported"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 10,
+        "tanggal": "2025-03-19",
+        "keterangan": "EVENT PLATINUM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 10,
+        "tanggal": "2025-03-20",
+        "keterangan": "EVENT MAHKOTA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 10,
+        "tanggal": "2025-03-25",
+        "keterangan": "niramita"
+      }
+    ]
+  },
+  {
+    "kode": "BALLON TEPUK PUTIH",
+    "nama": "BALLON TEPUK PUTIH",
+    "masuk": 50,
+    "keluar": 30,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 50,
+        "tanggal": "2025-03-20",
+        "keterangan": "IMPORTED"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 10,
+        "tanggal": "2025-03-19",
+        "keterangan": "EVENT PLATINUM"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 10,
+        "tanggal": "2025-03-20",
+        "keterangan": "EVENT MAHKOTA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 10,
+        "tanggal": "2025-03-25",
+        "keterangan": "niramita"
+      }
+    ]
+  },
+  {
+    "kode": "KHAKI L",
+    "nama": "KHAKI L",
+    "masuk": 12,
+    "keluar": 6,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 5,
+        "tanggal": "2025-03-20",
+        "keterangan": "MDO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-03-22",
+        "keterangan": "TIKA, SELA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-24",
+        "keterangan": "moh zulham"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 7,
+        "tanggal": "2025-03-25",
+        "keterangan": "MDO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-25",
+        "keterangan": "FITRI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-24",
+        "keterangan": "DELLA"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-28",
+        "keterangan": "failex"
+      }
+    ]
+  },
+  {
+    "kode": "KHAKI M",
+    "nama": "KHAKI M",
+    "masuk": 22,
+    "keluar": 1,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 2,
+        "tanggal": "2025-03-20",
+        "keterangan": "MDO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-24",
+        "keterangan": "dela puspita"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 20,
+        "tanggal": "2025-03-25",
+        "keterangan": "MDO"
+      }
+    ]
+  },
+  {
+    "kode": "GIFT GRA PURPLE",
+    "nama": "GIFT GRA PURPLE",
+    "masuk": 17,
+    "keluar": 8,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 10,
+        "tanggal": "2025-03-20",
+        "keterangan": "MDO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-03-21",
+        "keterangan": "RIZKY"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-22",
+        "keterangan": "ilham / vio"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-03-24",
+        "keterangan": "rifal,yunan-cicilita"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-25",
+        "keterangan": "fitri pickup maryam"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-25",
+        "keterangan": "meyke"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-25",
+        "keterangan": "moh amalu / jnt"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 7,
+        "tanggal": "2025-03-27",
+        "keterangan": "MDO"
+      }
+    ]
+  },
+  {
+    "kode": "GIFT GRA BLUE",
+    "nama": "GIFT GRA BLUE",
+    "masuk": 28,
+    "keluar": 10,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 10,
+        "tanggal": "2025-03-20",
+        "keterangan": "MDO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-21",
+        "keterangan": "RIZKY"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-22",
+        "keterangan": "ilham / vio"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-25",
+        "keterangan": "FITRAN"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-25",
+        "keterangan": "meylan"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-25",
+        "keterangan": "maryam"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-25",
+        "keterangan": "meyke"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-03-25",
+        "keterangan": "FRENGKI"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-26",
+        "keterangan": "vio"
+      },
+      {
+        "tipe": "masuk",
+        "jumlah": 18,
+        "tanggal": "2025-03-27",
+        "keterangan": "MDO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-30",
+        "keterangan": "MEYKE"
+      }
+    ]
+  },
+  {
+    "kode": "POSTER RAMADHAN",
+    "nama": "POSTER RAMADHAN",
+    "masuk": 10,
+    "keluar": 0,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 10,
+        "tanggal": "2025-03-20",
+        "keterangan": "MDO"
+      }
+    ]
+  },
+  {
+    "kode": "FOLDING ENCO BUDS 3PRO",
+    "nama": "FOLDING ENCO BUDS 3PRO",
+    "masuk": 26,
+    "keluar": 0,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 26,
+        "tanggal": "2025-03-20",
+        "keterangan": "MDO"
+      }
+    ]
+  },
+  {
+    "kode": "ENCO AIR4",
+    "nama": "ENCO AIR4",
+    "masuk": 3,
+    "keluar": 3,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 3,
+        "tanggal": "2025-03-21",
+        "keterangan": "MDO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-03-21",
+        "keterangan": "RIZKY"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-27",
+        "keterangan": "PICKUP DIO"
+      }
+    ]
+  },
+  {
+    "kode": "BLACK T-SHIRT M MAN",
+    "nama": "BLACK T-SHIRT M MAN",
+    "masuk": 1,
+    "keluar": 1,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 1,
+        "tanggal": "2025-03-25",
+        "keterangan": "1"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-25",
+        "keterangan": "FITRI"
+      }
+    ]
+  },
+  {
+    "kode": "BLACK T-SHIRT M WOMAN",
+    "nama": "BLACK T-SHIRT M WOMAN",
+    "masuk": 4,
+    "keluar": 0,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 4,
+        "tanggal": "2025-03-25",
+        "keterangan": "MDO"
+      }
+    ]
+  },
+  {
+    "kode": "BLACK T-SHIRT L WOMAN",
+    "nama": "BLACK T-SHIRT L WOMAN",
+    "masuk": 15,
+    "keluar": 1,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 15,
+        "tanggal": "2025-03-25",
+        "keterangan": "MDO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 1,
+        "tanggal": "2025-03-25",
+        "keterangan": "DELLA"
+      }
+    ]
+  },
+  {
+    "kode": "T-SHIRT BLACK XXXL MAN",
+    "nama": "T-SHIRT BLACK XXXL MAN",
+    "masuk": 14,
+    "keluar": 2,
+    "history": [
+      {
+        "tipe": "masuk",
+        "jumlah": 14,
+        "tanggal": "2025-03-27",
+        "keterangan": "MDO"
+      },
+      {
+        "tipe": "keluar",
+        "jumlah": 2,
+        "tanggal": "2025-03-28",
+        "keterangan": "zulham,failex"
+      }
+    ]
+  }
+]
